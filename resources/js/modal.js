@@ -56,20 +56,47 @@ function hideTab(n) {
 
 // Handle Next button click
 document.getElementById("nextButton").onclick = function() {
-    if (currentTab === 2) {
-        var q1 = document.getElementById('question1').value;
-        var q2 = document.getElementById('question2').value;
-        var q3 = document.getElementById('question3').value;
-
-        if (q1 === "yes" && q2 === "yes" && q3 === "yes") {
+    var q1 = document.getElementById('question1').value;
+    var q2 = document.getElementById('question2').value;
+    var q3 = document.getElementById('question3').value;
+    if(currentTab === 0){
+        if(q1 === "yes"){
             hideTab(currentTab);
             currentTab++;
             showTab(currentTab);
         } else {
             Swal.fire({
                 icon: 'error',
-                title: 'Ошибка',
-                text: 'Извините, вы должны ответить "Да" на все предыдущие вопросы, чтобы продолжить.',
+                title: 'Извините',
+                text: 'Сейчас, мы не сможем рассмотреть данный вопрос',
+                confirmButtonText: 'ОК'
+            });
+        }
+    }
+    else if (currentTab === 1) {
+        if (q2 === "yes") {
+            hideTab(currentTab);
+            currentTab++;
+            showTab(currentTab);
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Извините',
+                text: 'Сейчас, мы не сможем рассмотреть данный вопрос',
+                confirmButtonText: 'ОК'
+            });
+
+        }
+    } else if (currentTab === 2) {
+        if (q3 === "yes") {
+            hideTab(currentTab);
+            currentTab++;
+            showTab(currentTab);
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Извините',
+                text: 'Сейчас, мы не сможем рассмотреть данный вопрос',
                 confirmButtonText: 'ОК'
             });
 
