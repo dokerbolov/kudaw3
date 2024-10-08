@@ -13,6 +13,14 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            /*overflow-x: hidden; !* No horizontal scroll *!*/
+            /*background-color: #f8f2e2; !* Use your background color *!*/
+        }s
+    </style>
     <!-- fevicon -->
     <link rel="icon" href="images/fevicon.png" type="image/gif" />
     <!-- font css -->
@@ -131,15 +139,15 @@
 {{--</div>--}}
 <!-- box section end -->
 <!-- services section start -->
-<div id="what-we" class="services_section">
+<div id="what-we" class="services_section" style="background: #F8F2E2">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="studies_taital">ПРЕИМУЩЕСТВА</h1>
+                <h1 style="background: #F8F2E2" class="customer_taital">ПРЕИМУЩЕСТВА</h1>
             </div>
         </div>
     </div>
-    <div class="services_section_2">
+    <div class="services_section_2" style="margin-top: 0; padding-top: 0; padding-bottom: 0">
         <div class="container-fluid">
             <!-- Flex Container for Row 1 -->
             <div class="services_row flex-container">
@@ -253,12 +261,14 @@
                 <div class="about_img"><img src="images/about-img.png"></div>
             </div>
             <div class="col-md-6">
+                <h1 class="about_taital">О нас</h1>
                 <div class="about_text_main row">
-                    <h1 class="about_taital">О нас</h1>
                     <p class="about_text">Создан и функционирует в соответствии
                         с действующим законодательством Республики Казахстан и является независимым, самостоятельным постоянно действующим органом
                         по разрешению споров, возникающих между субъектами гражданских правоотношений.</p>
-                    <div class="send_bt"><a id="openModalBtn">Оставить заявку</a></div>
+                    <div class="send_bt">
+                        <a href="#about-us" id="openModalBtn">Оставить заявку</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -268,11 +278,11 @@
 
 <!-- heroes section start -->
 <div class="container mt-5">
-    <div class="row">
+    <div id="heroes" class="row">
         <text class="customer_taital">АРБИТРЫ</text>
         <!-- First row with 4 items -->
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/samal.jpg" class="image_hero" alt="Person 1">
+            <img src="images/heroes/samal.png" class="image_hero" alt="Person 1">
             <h4><b>Ордабаева Самал Токтасыновна</b></h4>
             <p>Председатель НУ МАС "Pactum"</p>
         </div>
@@ -282,12 +292,12 @@
             <p style="margin: 0;">Постоянно действующий арбитр в Некоммерческом учреждении «Международный Арбитражный Суд «Pactum»</p>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/tatyana.jpg" class="image_hero" alt="Person 3">
+            <img src="images/heroes/tatyana.png" class="image_hero" alt="Person 3">
             <h4><b>Бровко Татьяна Владимировна</b></h4>
             <p>Главный менеджер Управления правовой защиты Департамента правовой работы АО «Народный Банк Казахстана»</p>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/sergei.jpeg" class="image_hero" alt="Person 4">
+            <img src="images/heroes/sergei.png" class="image_hero" alt="Person 4">
             <h4><b>Степасюк Сергей Николаевич</b></h4>
             <p>Директор ТОО Юридическая фирма BRAUS</p>
         </div>
@@ -301,12 +311,12 @@
             <p>Профессиональный медиатор международного уровня</p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/konstantin.jpg" class="image_hero" alt="Person 6">
+            <img src="images/heroes/konstantin.png" class="image_hero" alt="Person 6">
             <h4><b>Константин Игоревич Иванов</b></h4>
             <p>Эксперт-практик в области коммерческого, договорного и арбитражного права</p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/anton.jpeg" class="image_hero" alt="Person 7">
+            <img src="images/heroes/anton.png" class="image_hero" alt="Person 7">
             <h4><b>Бадиков Антон Александрович</b></h4>
             <p>Директор ТОО «Юридическая компания «Legal aspect»</p>
         </div>
@@ -495,7 +505,7 @@
 {{--</div>--}}
 <!-- testimonial section end -->
 <!-- contact section start -->
-<div id="contacts" class="contact_section layout_padding">
+<div id="contacts" style="background-color: #f8f2e2; padding: 30px" class="contact_section layout_padding">
     <div class="container-fluid d-flex align-items-center">
         <div class="row w-100">
             <div class="col-sm-12 text-center m-4">
@@ -519,68 +529,79 @@
                             <br> тел: +7705 740 3021
                             <br> E-mail: iac.pactum@gmail.com
                         </p>
-                        <div class="send_bt"><a id="openModalBtn2">Оставить заявку</a></div>
+                        <div class="send_bt">
+                            <a href="#contacts" id="openModalBtn2">Оставить заявку</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <div id="myModal" class="modal">
     <div class="modal-content">
         <div class="modal-header">
             <h2 style="color: #ffffff">Заявка</h2>
             <span class="close">&times;</span>
         </div>
+
+        <!-- Progress Indicator -->
+        <div class="progress-header">
+            <div class="step" id="step1">1</div>
+            <div class="step" id="step2">2</div>
+            <div class="step" id="step3">3</div>
+            <div class="step" id="step4">4</div>
+        </div>
+
         <div class="modal-body">
             <form id="applicationForm">
-                <!-- Question 1 -->
-                <label>1. Вы желаете участвовать в споре в Арбитраже?</label><br>
-                <select class="question" name="participation" data-question="1">
-                    <option value="yes">Да</option>
-                    <option value="no">Нет</option>
-                </select><br>
-
-                <!-- Question 2 -->
-                <label>2. У вас имеется спор между юридическими лицами?</label><br>
-                <select class="question" name="businessDispute" data-question="2">
-                    <option value="yes">Да</option>
-                    <option value="no">Нет</option>
-                </select><br>
-
-                <!-- Question 3 -->
-                <label>3. Какая оговорка у вас указана в договоре, в разделе "Порядок решения споров"?</label><br>
-                <select class="question" name="arbitrationClause" data-question="3">
-                    <option value="yes">НУ МАС Pactum</option>
-                    <option value="В соответствии с законодательством РК">В соответствии с законодательством РК</option>
-                    <option value="Другой арбитражный суд">Другой арбитражный суд</option>
-                    <option value="СМЭС">СМЭС</option>
-                </select><br>
-
-                <!-- Question 4 -->
-                <label>4. Ваш спор ранее уже был на рассмотрении в государственном суде?</label><br>
-                <select class="question" name="courtReview" data-question="4">
-                    <option value="yes">Да</option>
-                    <option value="no">Нет</option>
-                </select><br>
-
-                <!-- Contact Details -->
-                <div id="contactDetails" style="display:none;">
-                    <label>5. Заполните пожалуйста следующие данные и мы Вам позвоним для предоставления более подробной консультации:</label><br>
-                    <input type="text" name="fullName" placeholder="ФИО"><br>
-                    <input type="text" name="phone" placeholder="Контактный телефон"><br>
-                    <label>Физическое / юридическое лицо (выбрать ответ)</label><br>
-                    <select name="legalStatus">
-                        <option value="физическое лицо">Физическое лицо</option>
-                        <option value="юридическое лицо">Юридическое лицо</option>
+                <div class="tab" id="tab1">
+                    <label>1. У вас имеется спор между юридическими лицами?</label><br>
+                    <select id="question1" class="question" name="businessDispute" data-question="1">
+                        <option value="yes">Да</option>
+                        <option value="no">Нет</option>
                     </select><br>
-                    <input type="text" name="organizationName" placeholder="Если юр. лицо, то надо написать Наименование организации"><br>
+                </div>
+
+                <div class="tab" id="tab2" style="display:none;">
+                    <label>2. Какая оговорка у вас указана в договоре, в разделе "Порядок решения споров"?</label><br>
+                    <select id="question2" class="question" name="arbitrationClause" data-question="2">
+                        <option value="yes">НУ МАС Pactum</option>
+                        <option value="В соответствии с законодательством РК">В соответствии с законодательством РК</option>
+                        <option value="Другой арбитражный суд">Другой арбитражный суд</option>
+                        <option value="СМЭС">СМЭС</option>
+                    </select><br>
+                </div>
+
+                <div class="tab" id="tab3" style="display:none;">
+                    <label>3. Ваш спор ранее уже был на рассмотрении в государственном суде?</label><br>
+                    <select id="question3" class="question" name="courtReview" data-question="3">
+                        <option value="yes">Да</option>
+                        <option value="no">Нет</option>
+                    </select><br>
+                </div>
+
+                <div class="tab" id="tab4" style="display:none;">
+                    <div id="contactDetails">
+                        <label>4. Заполните пожалуйста следующие данные и мы Вам позвоним для предоставления более подробной консультации:</label><br>
+                        <input type="text" name="fullName" placeholder="ФИО"><br>
+                        <input type="text" name="phone" placeholder="Контактный телефон"><br>
+                        <label>Физическое / юридическое лицо (выбрать ответ)</label><br>
+                        <select name="legalStatus">
+                            <option value="null" disabled selected>Выберите ответ</option>
+                            <option value="физическое лицо">Физическое лицо</option>
+                            <option value="юридическое лицо">Юридическое лицо</option>
+                        </select><br>
+                        <input type="text" name="organizationName" placeholder="Если юр. лицо, то надо написать Наименование организации"><br>
+                    </div>
                 </div>
             </form>
         </div>
         <div class="modal-footer">
+            <button id="prevButton" style="display:none;">Назад</button>
             <button id="nextButton">Далее</button>
-            <button id="sendButton">Отправить</button>
+            <button id="sendButton" style="display:none;">Отправить</button>
         </div>
     </div>
 </div>
@@ -594,13 +615,13 @@
                 <div class="location_text">
                     <ul>
                         <li>
-                            <a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                            <a href="https://wa.me/77057403021"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                            <a href="#77057403021"><i class="fab fa-telegram" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -617,7 +638,7 @@
 <!-- copyright section start -->
 <div class="copyright_section">
     <div class="container">
-        <p class="copyright_text">2024 All Rights Reserved. Design by ProAndroid Services</p>
+        <p class="copyright_text">2024 Все права сохранены Pactum</p>
     </div>
 </div>
 </body>
