@@ -37,6 +37,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
+<div id="overlay" style="display:none;">
+    <div id="loader"></div>
+</div>
 <div class="header_section">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -559,49 +562,49 @@
             <form id="applicationForm">
                 <div class="tab" id="tab1">
                     <label>1. Вы желаете учавствовать в споре в Арбитраже?</label><br>
-                    <select id="question1" class="question" name="businessDispute" data-question="1">
+                    <select id="question1" class="question" name="question1" data-question="1">
                         <option value="null" disabled selected>Выберите ответ</option>
-                        <option value="yes">Да</option>
-                        <option value="no">Нет</option>
+                        <option value="Да">Да</option>
+                        <option value="Нет">Нет</option>
                     </select><br>
                 </div>
 
                 <div class="tab" id="tab2" style="display: none">
                     <label>2. У вас имеется спор между юридическими лицами?</label><br>
-                    <select id="question2" class="question" name="businessDispute" data-question="2">
+                    <select id="question2" class="question" name="question2" data-question="2">
                         <option value="null" disabled selected>Выберите ответ</option>
-                        <option value="yes">Да</option>
-                        <option value="no">Нет</option>
+                        <option value="Да">Да</option>
+                        <option value="Нет">Нет</option>
                     </select><br>
                 </div>
 
                 <div class="tab" id="tab3" style="display:none;">
                     <label>3. Какая оговорка у вас указана в договоре, в разделе "Порядок решения споров"?</label><br>
-                    <select id="question3" class="question" name="arbitrationClause" data-question="3">
+                    <select id="question3" class="question" name="question3" data-question="3">
                         <option value="null" disabled selected>Выберите ответ</option>
                         <option value="НУ МАС Pactum">НУ МАС Pactum</option>
                         <option value="В соответствии с законодательством РК">В соответствии с законодательством РК</option>
-                        <option value="no">Другой арбитражный суд</option>
-                        <option value="no">СМЭС</option>
+                        <option value="Нет">Другой арбитражный суд</option>
+                        <option value="Нет">СМЭС</option>
                     </select><br>
                 </div>
 
                 <div class="tab" id="tab4" style="display:none;">
                     <label>4. Ваш спор ранее уже был на рассмотрении в государственном суде?</label><br>
-                    <select id="question4" class="question" name="courtReview" data-question="4">
+                    <select id="question4" class="question" name="question4" data-question="4">
                         <option value="null" disabled selected>Выберите ответ</option>
-                        <option value="yes">Да</option>
-                        <option value="no">Нет</option>
+                        <option value="Да">Да</option>
+                        <option value="Нет">Нет</option>
                     </select><br>
                 </div>
 
                 <div class="tab" id="tab5" style="display:none;">
                     <div id="contactDetails">
                         <label>5. Заполните пожалуйста следующие данные и мы Вам позвоним для предоставления более подробной консультации:</label><br>
-                        <input type="text" name="fullName" placeholder="ФИО"><br>
-                        <input type="text" name="phone" placeholder="Контактный телефон"><br>
+                        <input type="text" name="fullName" required placeholder="ФИО"><br>
+                        <input type="text" type="number" required name="phone" placeholder="Контактный телефон"><br>
                         <label>Физическое / юридическое лицо (выбрать ответ)</label><br>
-                        <select name="legalStatus">
+                        <select name="legalStatus" required>
                             <option value="null" disabled selected>Выберите ответ</option>
                             <option value="физическое лицо">Физическое лицо</option>
                             <option value="юридическое лицо">Юридическое лицо</option>

@@ -16,7 +16,7 @@ class EmailService
      */
     public function sendMessage($to, $subject, $messageBody)
     {
-        Mail::raw($messageBody, function ($message) use ($to, $subject) {
+        Mail::html($messageBody, function ($message) use ($to, $subject) {
             $message->to($to)
                 ->subject($subject);
         });

@@ -28,7 +28,7 @@ class TelegramBotService
         $response = Http::post("{$this->apiUrl}sendMessage", [
             'chat_id' => $this->chatId,
             'text' => $message,
-            'parse_mode' => 'Markdown'
+            'parse_mode' => 'HTML'
         ]);
 
         return $response->json();

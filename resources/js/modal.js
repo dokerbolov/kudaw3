@@ -121,7 +121,7 @@ document.getElementById("nextButton").onclick = function() {
             });
         }
     } else if (currentTab === 3){
-        if (q4 === "no") {
+        if (q4 === "Нет") {
             hideTab(currentTab);
             currentTab++;
             showTab(currentTab);
@@ -200,16 +200,32 @@ function sendToBackend() {
     }
 
     const formData = new FormData(document.getElementById("applicationForm"));
+
+    Swal.fire({
+        title: 'Подождите...',
+        text: 'Идет обработка вашей заявки',
+        allowEscapeKey: false,
+        allowOutsideClick: false,
+        didOpen: () => {
+            Swal.showLoading();
+        }
+    });
+
     axios.post('/api/send', formData, {
         headers: {
             'X-Requested-With': 'XMLHttpRequest',
         }
     }).then(response => {
+        Swal.close();
         Swal.fire({
             icon: 'success',
             title: 'Успешно',
             text: 'Ваша заявка отправлена на обратку, с вами свяжутся в ближайшее время',
             confirmButtonText: 'ОК'
+        })
+            .then(() => {
+            modal.style.display = "none";
+            resetModal();
         });
     }).catch(error => {
         Swal.fire({
@@ -218,7 +234,7 @@ function sendToBackend() {
             text: 'Произошла ошибка при отправке данных.',
             confirmButtonText: 'ОК'
         });
-    });
+    })
 }
 
 function validateForm() {
