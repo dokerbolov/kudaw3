@@ -555,13 +555,22 @@
             <div class="step" id="step2">2</div>
             <div class="step" id="step3">3</div>
             <div class="step" id="step4">4</div>
-            <div class="step" id="step5">5</div>
+{{--            <div class="step" id="step5">5</div>--}}
         </div>
 
         <div class="modal-body">
             <form id="applicationForm">
-                <div class="tab" id="tab1">
-                    <label>1. Вы желаете учавствовать в споре в Арбитраже?</label><br>
+{{--                <div class="tab" id="tab1">--}}
+{{--                    <label>1. Вы желаете учавствовать в споре в Арбитраже?</label><br>--}}
+{{--                    <select id="question1" class="question" name="question1" data-question="1">--}}
+{{--                        <option value="null" disabled selected>Выберите ответ</option>--}}
+{{--                        <option value="Да">Да</option>--}}
+{{--                        <option value="Нет">Нет</option>--}}
+{{--                    </select><br>--}}
+{{--                </div>--}}
+
+                <div class="tab" id="tab1" style="display: none">
+                    <label>1. У вас имеется спор между юридическими лицами?</label><br>
                     <select id="question1" class="question" name="question1" data-question="1">
                         <option value="null" disabled selected>Выберите ответ</option>
                         <option value="Да">Да</option>
@@ -569,18 +578,9 @@
                     </select><br>
                 </div>
 
-                <div class="tab" id="tab2" style="display: none">
-                    <label>2. У вас имеется спор между юридическими лицами?</label><br>
+                <div class="tab" id="tab2" style="display:none;">
+                    <label>2. Какая оговорка у вас указана в договоре, в разделе "Порядок решения споров"?</label><br>
                     <select id="question2" class="question" name="question2" data-question="2">
-                        <option value="null" disabled selected>Выберите ответ</option>
-                        <option value="Да">Да</option>
-                        <option value="Нет">Нет</option>
-                    </select><br>
-                </div>
-
-                <div class="tab" id="tab3" style="display:none;">
-                    <label>3. Какая оговорка у вас указана в договоре, в разделе "Порядок решения споров"?</label><br>
-                    <select id="question3" class="question" name="question3" data-question="3">
                         <option value="null" disabled selected>Выберите ответ</option>
                         <option value="НУ МАС Pactum">НУ МАС Pactum</option>
                         <option value="В соответствии с законодательством РК">В соответствии с законодательством РК</option>
@@ -589,18 +589,18 @@
                     </select><br>
                 </div>
 
-                <div class="tab" id="tab4" style="display:none;">
-                    <label>4. Ваш спор ранее уже был на рассмотрении в государственном суде?</label><br>
-                    <select id="question4" class="question" name="question4" data-question="4">
+                <div class="tab" id="tab3" style="display:none;">
+                    <label>3. Ваш спор ранее уже был на рассмотрении в государственном суде?</label><br>
+                    <select id="question3" class="question" name="question3" data-question="3">
                         <option value="null" disabled selected>Выберите ответ</option>
                         <option value="Да">Да</option>
                         <option value="Нет">Нет</option>
                     </select><br>
                 </div>
 
-                <div class="tab" id="tab5" style="display:none;">
+                <div class="tab" id="tab4" style="display:none;">
                     <div id="contactDetails">
-                        <label>5. Заполните пожалуйста следующие данные и мы Вам позвоним для предоставления более подробной консультации:</label><br>
+                        <label>4. Заполните пожалуйста следующие данные и мы Вам позвоним для предоставления более подробной консультации:</label><br>
                         <input type="text" name="fullName" required placeholder="ФИО"><br>
                         <input type="text" type="number" required name="phone" placeholder="Контактный телефон"><br>
                         <label>Физическое / юридическое лицо (выбрать ответ)</label><br>

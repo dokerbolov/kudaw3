@@ -59,7 +59,7 @@ document.getElementById("nextButton").onclick = function() {
     var q1 = document.getElementById('question1').value;
     var q2 = document.getElementById('question2').value;
     var q3 = document.getElementById('question3').value;
-    var q4 = document.getElementById('question4').value;
+    // var q4 = document.getElementById('question4').value;
     if (currentTab === 0) {
         if (q1 != "null") {
             hideTab(currentTab);
@@ -80,8 +80,29 @@ document.getElementById("nextButton").onclick = function() {
                 confirmButtonText: 'ОК'
             });
         }
-    } else if(currentTab === 1) {
-        if (q2 != "null") {
+    // }
+    // else if(currentTab === 1) {
+    //     if (q2 != "null") {
+    //         hideTab(currentTab);
+    //         currentTab++;
+    //         showTab(currentTab);
+    //     } else if (q2 === "null") {
+    //         Swal.fire({
+    //             icon: 'error',
+    //             title: 'Ошибка',
+    //             text: 'Пожалуйста, выберите ответ',
+    //             confirmButtonText: 'ОК'
+    //         });
+    //     } else {
+    //         Swal.fire({
+    //             icon: 'error',
+    //             title: 'Отказ',
+    //             text: 'Спасибо за обращение, но к сожалению ваш спорный вопрос не находится в нашей юрисдикции',
+    //             confirmButtonText: 'ОК'
+    //         });
+    //     }
+    } else if (currentTab === 1) {
+        if (q2 === "НУ МАС Pactum" || q2 === "В соответствии с законодательством РК") {
             hideTab(currentTab);
             currentTab++;
             showTab(currentTab);
@@ -100,32 +121,12 @@ document.getElementById("nextButton").onclick = function() {
                 confirmButtonText: 'ОК'
             });
         }
-    } else if (currentTab === 2) {
-        if (q3 === "НУ МАС Pactum" || q3 === "В соответствии с законодательством РК") {
+    } else if (currentTab === 2){
+        if (q3 === "Нет") {
             hideTab(currentTab);
             currentTab++;
             showTab(currentTab);
         } else if (q3 === "null") {
-            Swal.fire({
-                icon: 'error',
-                title: 'Ошибка',
-                text: 'Пожалуйста, выберите ответ',
-                confirmButtonText: 'ОК'
-            });
-        } else {
-            Swal.fire({
-                icon: 'error',
-                title: 'Отказ',
-                text: 'Спасибо за обращение, но к сожалению ваш спорный вопрос не находится в нашей юрисдикции',
-                confirmButtonText: 'ОК'
-            });
-        }
-    } else if (currentTab === 3){
-        if (q4 === "Нет") {
-            hideTab(currentTab);
-            currentTab++;
-            showTab(currentTab);
-        } else if (q4 === "null") {
             Swal.fire({
                 icon: 'error',
                 title: 'Ошибка',

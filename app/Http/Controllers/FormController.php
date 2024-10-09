@@ -30,24 +30,39 @@ class FormController extends Controller
         if(isset($request->organizationName)){
             $organizationName = $request->organizationName;
         }
-        $messageBody = "<b>НОВАЯ ЗАЯВКА </b> <br>" .
+        $messageBodyMail = "<b>НОВАЯ ЗАЯВКА </b> <br>" .
             "ФИО: $request->fullName <br>" .
             "Номер телефона: $request->phone <br>" .
             "Тип лица: $legalStatus <br>";
 
         if ($organizationName !== 'Пусто' && !empty($organizationName)) {
-            $messageBody .= "Наименование организации: $organizationName <br><br>";
+            $messageBodyMail .= "Наименование организации: $organizationName <br><br>";
         }
 
-        $messageBody .= "Ответы по вопросам:\n" .
-            "Вы желаете учавствовать в споре в Арбитраже?: <b> $request->question1 </b> <br>" .
-            "У вас имеется спор между юридическими лицами?: <b> $request->question2 </b> <br>" .
-            "Какая оговорка у вас указана в договоре, в разделе Порядок решения споров?: <b> $request->question3 </b> <br>" .
-            "Ваш спор ранее уже был на рассмотрении в государственном суде?: <b> $request->question4 </b> <br>";
+        $messageBodyMail .= "Ответы по вопросам: <br>" .
+//            "Вы желаете учавствовать в споре в Арбитраже?: <b> $request->question1 </b> <br>" .
+            "У вас имеется спор между юридическими лицами?: <b> $request->question1 </b> <br>" .
+            "Какая оговорка у вас указана в договоре, в разделе Порядок решения споров?: <b> $request->question2 </b> <br>" .
+            "Ваш спор ранее уже был на рассмотрении в государственном суде?: <b> $request->question3 </b> <br>";
 
-        $this->emailService->sendMessage($to, $subject, $messageBody);
+        $messageBodyTelegram = "<b>НОВАЯ ЗАЯВКА </b> \n" .
+            "ФИО: $request->fullName \n" .
+            "Номер телефона: $request->phone \n" .
+            "Тип лица: $legalStatus \n";
 
-        $telegramResponse = $this->telegramBotService->sendMessage($messageBody);
+        if ($organizationName !== 'Пусто' && !empty($organizationName)) {
+            $messageBodyTelegram .= "Наименование организации: $organizationName \n\n";
+        }
+
+        $messageBodyTelegram .= "Ответы по вопросам: \n" .
+//            "Вы желаете учавствовать в споре в Арбитраже?: <b> $request->question1 </b> \n" .
+            "У вас имеется спор между юридическими лицами?: <b> $request->question1 </b> \n" .
+            "Какая оговорка у вас указана в договоре, в разделе Порядок решения споров?: <b> $request->question2 </b> \n" .
+            "Ваш спор ранее уже был на рассмотрении в государственном суде?: <b> $request->question3 </b> \n";
+
+        $this->emailService->sendMessage($to, $subject, $messageBodyMail);
+
+        $telegramResponse = $this->telegramBotService->sendMessage($messageBodyTelegram);
 
         return response()->json([
             'message' => 'Email sent successfully!',
