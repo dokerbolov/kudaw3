@@ -153,36 +153,36 @@
             <div class="services_row flex-container">
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icon-1.png" class="image_1" alt=""/>
-                        <img src="images/icon-4.png" class="image_2" alt=""/>
+                        <img src="images/icons/9.png" class="image_1" alt=""/>
+                        <img src="images/icons/9.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Международное признание</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icon-2.png" class="image_1" alt=""/>
-                        <img src="images/icon-5.png" class="image_2" alt=""/>
+                        <img src="images/icons/4.png" class="image_1" alt=""/>
+                        <img src="images/icons/4.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Порядок исполнения решений арбитража</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icon-3.png" class="image_1" alt=""/>
-                        <img src="images/icon-6.png" class="image_2" alt=""/>
+                        <img src="images/icons/6.png" class="image_1" alt=""/>
+                        <img src="images/icons/6.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Упрощенная процедура разбирательства спора</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icon-1.png" class="image_1" alt=""/>
-                        <img src="images/icon-4.png" class="image_2" alt=""/>
+                        <img src="images/icons/2.png" class="image_1" alt=""/>
+                        <img src="images/icons/2.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Возможность мирного урегулирования спора</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icon-2.png" class="image_1" alt=""/>
-                        <img src="images/icon-5.png" class="image_2" alt=""/>
+                        <img src="images/icons/3.png" class="image_1" alt=""/>
+                        <img src="images/icons/3.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Профессионализм и компетентность</h3>
                 </div>
@@ -191,29 +191,29 @@
             <div class="services_row flex-container">
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icon-3.png" class="image_1" alt=""/>
-                        <img src="images/icon-6.png" class="image_2" alt=""/>
+                        <img src="images/icons/8.png" class="image_1" alt=""/>
+                        <img src="images/icons/8.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Сокращенные и сжатые сроки рассмотрения споров</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icon-1.png" class="image_1" alt=""/>
-                        <img src="images/icon-4.png" class="image_2" alt=""/>
+                        <img src="images/icons/7.png" class="image_1" alt=""/>
+                        <img src="images/icons/7.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Экономичность</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icon-2.png" class="image_1" alt=""/>
-                        <img src="images/icon-5.png" class="image_2" alt=""/>
+                        <img src="images/icons/1.png" class="image_1" alt=""/>
+                        <img src="images/icons/1.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Гибкость и комфорт</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icon-3.png" class="image_1" alt=""/>
-                        <img src="images/icon-6.png" class="image_2" alt=""/>
+                        <img src="images/icons/5.png" class="image_1" alt=""/>
+                        <img src="images/icons/5.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Конфиденциальность арбитражного разбирательства</h3>
                 </div>
@@ -552,39 +552,52 @@
             <div class="step" id="step2">2</div>
             <div class="step" id="step3">3</div>
             <div class="step" id="step4">4</div>
+            <div class="step" id="step5">5</div>
         </div>
 
         <div class="modal-body">
             <form id="applicationForm">
                 <div class="tab" id="tab1">
-                    <label>1. У вас имеется спор между юридическими лицами?</label><br>
+                    <label>1. Вы желаете учавствовать в споре в Арбитраже?</label><br>
                     <select id="question1" class="question" name="businessDispute" data-question="1">
+                        <option value="null" disabled selected>Выберите ответ</option>
                         <option value="yes">Да</option>
                         <option value="no">Нет</option>
                     </select><br>
                 </div>
 
-                <div class="tab" id="tab2" style="display:none;">
-                    <label>2. Какая оговорка у вас указана в договоре, в разделе "Порядок решения споров"?</label><br>
-                    <select id="question2" class="question" name="arbitrationClause" data-question="2">
-                        <option value="yes">НУ МАС Pactum</option>
-                        <option value="В соответствии с законодательством РК">В соответствии с законодательством РК</option>
-                        <option value="Другой арбитражный суд">Другой арбитражный суд</option>
-                        <option value="СМЭС">СМЭС</option>
+                <div class="tab" id="tab2" style="display: none">
+                    <label>2. У вас имеется спор между юридическими лицами?</label><br>
+                    <select id="question2" class="question" name="businessDispute" data-question="2">
+                        <option value="null" disabled selected>Выберите ответ</option>
+                        <option value="yes">Да</option>
+                        <option value="no">Нет</option>
                     </select><br>
                 </div>
 
                 <div class="tab" id="tab3" style="display:none;">
-                    <label>3. Ваш спор ранее уже был на рассмотрении в государственном суде?</label><br>
-                    <select id="question3" class="question" name="courtReview" data-question="3">
+                    <label>3. Какая оговорка у вас указана в договоре, в разделе "Порядок решения споров"?</label><br>
+                    <select id="question3" class="question" name="arbitrationClause" data-question="3">
+                        <option value="null" disabled selected>Выберите ответ</option>
+                        <option value="НУ МАС Pactum">НУ МАС Pactum</option>
+                        <option value="В соответствии с законодательством РК">В соответствии с законодательством РК</option>
+                        <option value="no">Другой арбитражный суд</option>
+                        <option value="no">СМЭС</option>
+                    </select><br>
+                </div>
+
+                <div class="tab" id="tab4" style="display:none;">
+                    <label>4. Ваш спор ранее уже был на рассмотрении в государственном суде?</label><br>
+                    <select id="question4" class="question" name="courtReview" data-question="4">
+                        <option value="null" disabled selected>Выберите ответ</option>
                         <option value="yes">Да</option>
                         <option value="no">Нет</option>
                     </select><br>
                 </div>
 
-                <div class="tab" id="tab4" style="display:none;">
+                <div class="tab" id="tab5" style="display:none;">
                     <div id="contactDetails">
-                        <label>4. Заполните пожалуйста следующие данные и мы Вам позвоним для предоставления более подробной консультации:</label><br>
+                        <label>5. Заполните пожалуйста следующие данные и мы Вам позвоним для предоставления более подробной консультации:</label><br>
                         <input type="text" name="fullName" placeholder="ФИО"><br>
                         <input type="text" name="phone" placeholder="Контактный телефон"><br>
                         <label>Физическое / юридическое лицо (выбрать ответ)</label><br>

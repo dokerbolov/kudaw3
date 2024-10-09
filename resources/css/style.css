@@ -566,6 +566,16 @@ a.navbar-brand {
     margin-top: 5px;
 }
 
+.image_1 {
+    width: 150px;
+    height: 150px;
+}
+
+.image_2 {
+    width: 150px;
+    height: 150px;
+}
+
 .image_hero {
     border-radius: 50%;
     width: 200px;
@@ -581,11 +591,6 @@ a.navbar-brand {
     margin: 10px;
     padding: 15px;
     box-sizing: border-box;
-}
-
-/* Icon styling */
-.house_icon {
-    margin-bottom: 15px;
 }
 
 .corporate_text {
