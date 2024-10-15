@@ -321,7 +321,7 @@ a.navbar-brand {
 .banner_taital_main {
     width: 100%;
     float: left;
-    padding-left: 100px;
+    padding-left: 20px;
 }
 
 .banner_taital {
@@ -344,8 +344,8 @@ a.navbar-brand {
 .started_bt {
     width: 170px;
     float: left;
-    margin-left: 15px;
-    margin-top: 30px;
+    /*margin-left: 15px;*/
+    margin-top: 20px;
 }
 
 .started_bt a {
@@ -368,7 +368,8 @@ a.navbar-brand {
 .readmore_btn {
     width: 170px;
     float: left;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
 }
 
 .readmore_btn a {
@@ -395,8 +396,8 @@ a.navbar-brand {
 
 .banner_img {
     width: 58%;
-    margin: 0 auto;
     text-align: center;
+    margin: 15px auto;
 }
 
 #banner_slider a.carousel-control-prev {
@@ -576,6 +577,15 @@ a.navbar-brand {
     height: 150px;
 }
 
+.text_hero {
+    margin-bottom: 40px;
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+}
+
 .image_hero {
     border-radius: 50%;
     width: 200px;
@@ -746,20 +756,22 @@ p.chunks_text {
 .studies_section_2 {
     width: 100%;
     float: left;
-    padding: 40px 0px 0px 0px;
+    padding: 40px 0;
 }
 
 .studies_box {
-    width: 100%;
-    float: left;
+    flex: 1; /* Make both columns equal width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     background-color: #ffffff;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    height: auto;
     padding: 30px 10px;
-    box-shadow: 0px -3px 15px 0px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    height: 100%; /* Ensure consistent height */
 }
-
 
 /* Zoom In #1 */
 
@@ -793,12 +805,17 @@ p.chunks_text {
 }
 
 figure {
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
-    background: #fff;
-    overflow: hidden;
+    width: 80%; /* Adjust image size if necessary */
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc; /* Optional: Add border for aesthetics */
+    border-radius: 5px;
 }
 
 figure:hover+span {
@@ -882,9 +899,22 @@ figure:hover+span {
     margin: 30px 0px 0px 0px;
 }
 
+.about_text p {
+    color: #fefefd;
+}
+
 .about_img {
     width: auto;
     margin-top: 30px;
+}
+
+.award_title {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .readmore_bt {
@@ -1551,6 +1581,34 @@ textarea {
     left: 50%;
     margin-top: -50px; /* Adjust based on loader size */
     margin-left: -50px;
+}
+
+.map-container {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .map-container {
+        height: 300px;
+    }
+
+    .contact_section_2 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .map-container {
+        height: 250px;
+    }
+
+    .text-center p {
+        font-size: 14px;
+    }
 }
 
 @keyframes spin {

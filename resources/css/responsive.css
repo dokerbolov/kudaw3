@@ -299,7 +299,7 @@
     }
     .banner_img {
         width: 100%;
-        margin-top: 30px;
+        margin: 10px;
     }
     .online_box_left {
         margin: 10px 0px;
@@ -315,7 +315,6 @@
     }
     .about_section .row {
         display: flex;
-        flex-direction: column-reverse;
     }
     .customer_taital {
         margin-top: 50px;
@@ -436,7 +435,6 @@
     }
     .about_section .row {
         display: flex;
-        flex-direction: column-reverse;
     }
     .customer_taital {
         margin-top: 50px;

@@ -1,16 +1,21 @@
 ymaps.ready(init);
-function init() {
-    // Create the map.
-    var myMap = new ymaps.Map("map", {
-    center: [43.233419, 76.867572], // Coordinates for Almaty, Kazakhstan (replace with desired location)
-    zoom: 14
-});
-    // Add a placemark (the blue marker in your image).
-    var myPlacemark = new ymaps.Placemark([43.233419, 76.867572], {
-    hintContent: 'Pactum Court Location',
-    balloonContent: 'This is where the office is located'
-});
 
-    // Add the placemark to the map.
+function init() {
+    var myMap = new ymaps.Map("map", {
+        center: [43.233419, 76.867572],
+        zoom: 14,
+        controls: ["zoomControl", "fullscreenControl"]
+    });
+
+    var myPlacemark = new ymaps.Placemark([43.233419, 76.867572], {
+        hintContent: 'Pactum Court Location',
+        balloonContent: 'This is where the office is located'
+    });
+
     myMap.geoObjects.add(myPlacemark);
+
+    // Resize map correctly on window resize to prevent rendering issues
+    window.addEventListener('resize', function () {
+        myMap.container.fitToViewport();
+    });
 }

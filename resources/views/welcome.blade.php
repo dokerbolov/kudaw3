@@ -65,6 +65,9 @@
                         <a class="nav-link" href="#heroes">Арбитры</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#arbitration-award">Заключение</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contacts">Контакты</a>
                     </li>
                 </ul>
@@ -83,13 +86,16 @@
                                     <h3 class="banner_taital">Международный Арбитражный Суд "Pactum"</h3>
                                     <p class="banner_text">Создан и функционирует в соответствии
                                         с действующим законодательством Республики Казахстан и является независимым, самостоятельным постоянно действующим органом
-                                        по разрешению споров, возникающих между субъектами гражданских правоотношений.</p>
+                                        по разрешению споров, возникающих между субъектами гражданских правоотношений.
+                                        На сегодняшний день арбитраж представляет собой наиболее быстрый и эффективный механизм разрешения споров и разногласий,
+                                        возникающих в результате договорных и иных гражданско-правовых отношений. Большинство коммерческих и экономических споров рассматривается именно арбитражными судами.
+                                    </p>
                                     <div class="readmore_btn active"><a href="#about-us">Подробнее</a></div>
                                     <div class="started_bt"><a href="#contacts">Контакты</a></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="banner_img"><img src="images/banner-img.png"></div>
+                                <div class="banner_img"><img src="images/banner-img-removed.png"></div>
                             </div>
                         </div>
                     </div>
@@ -236,19 +242,15 @@
         <div class="studies_section_2">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="column">
-                        <figure><img src="images/service-img4.png" alt=""/></figure>
-                    </div>
                     <div class="studies_box">
                         <h3 class="introduction_text">Положение об арбитражных расходах и сборах</h3>
+                        <figure><img src="images/service-img4.png" alt=""/></figure>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="column">
-                        <figure><img src="images/service-img5.png" alt=""/></figure>
-                    </div>
                     <div class="studies_box">
                         <h3 class="introduction_text">Регламент НУ Международного арбитражного суда "Pactum"</h3>
+                        <figure><img src="images/service-img5.png" alt=""/></figure>
                     </div>
                 </div>
             </div>
@@ -284,50 +286,89 @@
     <div id="heroes" class="row">
         <text class="customer_taital">АРБИТРЫ</text>
         <!-- First row with 4 items -->
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center mb-4">
+        <text class="text_hero">
+            Некоммерческое учреждение «Международный Арбитражный суд «Pactum» предлагает экономически целесообразные, независимые и оперативные услуги по разрешению корпоративных споров, выступая удобной альтернативой судебным разбирательствам в государственных судебных органах Казахстана.
+            Арбитры НУ «Международный Арбитражный суд «Pactum» — это профессиональные юристы с обширным опытом рассмотрения судебных споров как в арбитражах, так и в судах.
+            Мы являемся коллективом высококвалифицированных арбитров и медиаторов, обладающих значительным опытом в юридической сфере и компетентных в разрешении судебных споров. Мы открыты для проведения переговоров с целью обсуждения перспектив нашего взаимовыгодного сотрудничества.
+        </text>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">
             <img src="images/heroes/samal.png" class="image_hero" alt="Person 1">
             <h4><b>Ордабаева Самал Токтасыновна</b></h4>
             <p>Председатель НУ МАС "Pactum"</p>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center mb-4">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">
             <img src="images/heroes/zhanar.png" class="image_hero" alt="Person 2">
             <h4><b>Садыкова Жанар Еркинбековна</b></h4>
             <p style="margin: 0;">Постоянно действующий арбитр в Некоммерческом учреждении «Международный Арбитражный Суд «Pactum»</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/tatyana.png" class="image_hero" alt="Person 3">
-            <h4><b>Бровко Татьяна Владимировна</b></h4>
-            <p>Главный менеджер Управления правовой защиты Департамента правовой работы АО «Народный Банк Казахстана»</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/sergei.png" class="image_hero" alt="Person 4">
-            <h4><b>Степасюк Сергей Николаевич</b></h4>
-            <p>Директор ТОО Юридическая фирма BRAUS</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <!-- Second row with 3 items -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/serik.png" class="image_hero" alt="Person 5">
-            <h4><b>Сюндиков Серик Токтарбекович</b></h4>
-            <p>Профессиональный медиатор международного уровня</p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">
             <img src="images/heroes/konstantin.png" class="image_hero" alt="Person 6">
             <h4><b>Константин Игоревич Иванов</b></h4>
             <p>Эксперт-практик в области коммерческого, договорного и арбитражного права</p>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/anton.png" class="image_hero" alt="Person 7">
-            <h4><b>Бадиков Антон Александрович</b></h4>
-            <p>Директор ТОО «Юридическая компания «Legal aspect»</p>
-        </div>
+    </div>
+
+    <div class="row">
+        <!-- Second row with 3 items -->
+        {{--        <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center mb-4">--}}
+        {{--            <img src="images/heroes/tatyana.png" class="image_hero" alt="Person 3">--}}
+        {{--            <h4><b>Бровко Татьяна Владимировна</b></h4>--}}
+        {{--            <p>Главный менеджер Управления правовой защиты Департамента правовой работы АО «Народный Банк Казахстана»</p>--}}
+        {{--        </div>--}}
+        {{--        <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center mb-4">--}}
+        {{--            <img src="images/heroes/sergei.png" class="image_hero" alt="Person 4">--}}
+        {{--            <h4><b>Степасюк Сергей Николаевич</b></h4>--}}
+        {{--            <p>Директор ТОО Юридическая фирма BRAUS</p>--}}
+        {{--        </div>--}}
+{{--        <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">--}}
+{{--            <img src="images/heroes/serik.png" class="image_hero" alt="Person 5">--}}
+{{--            <h4><b>Сюндиков Серик Токтарбекович</b></h4>--}}
+{{--            <p>Профессиональный медиатор международного уровня</p>--}}
+{{--        </div>--}}
+
+{{--        <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">--}}
+{{--            <img src="images/heroes/anton.png" class="image_hero" alt="Person 7">--}}
+{{--            <h4><b>Бадиков Антон Александрович</b></h4>--}}
+{{--            <p>Директор ТОО «Юридическая компания «Legal aspect»</p>--}}
+{{--        </div>--}}
     </div>
 </div>
 
 <!-- heroes section end -->
 
+<!-- about section start -->
+<div id="arbitration-award" class="about_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="award_title">Арбитражное заключение</h1>
+                <div class="row">
+                    <p class="about_text">
+                        <b>Арбитражное соглашение может быть заключено путем совершения:</b>
+                        <ul class="about_text">
+                            <li>
+                                - арбитражной оговорки в документе, подписанном сторонами (как правило, арбитражная оговорка включается в текст основного договора);
+                            </li>
+                            <li>
+                                - самостоятельного арбитражного соглашения, независимого от основного договора;
+                            </li>
+                            <li>
+                                - арбитражного соглашения, заключаемого путем обмена письмами, телеграммами, телефонограммами, факсами, электронными документами или иными документами, определяющими состав субъектов и содержание их волеизъявления;
+                            </li>
+                            <li>
+                                - арбитражного соглашения, заключаемого путем обмена исками и отзывом на иск, в которых одна из сторон утверждает о наличии соглашения, а другая против этого не возражает;
+                            </li>
+                            <li>
+                                - отсылки в договоре на документ, из содержания которого следует о передаче спора на разрешение арбитража при условии, что договор заключен в письменной форме, и данная ссылка такова, что делает арбитражное соглашение частью договора (статья 9 Закона об арбитраже).
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about section end -->
 
 <!-- testimonial section start -->
 {{--<div id="heroes" class="customer_section layout_padding">--}}
@@ -515,10 +556,10 @@
                 <h1 class="studies_taital">КОНТАКТЫ</h1>
             </div>
             <div class="contact_section_2 row mt-4">
-                <div class="col-md-6">
-                    <div id="map" style="width: 100%; height: 500px;"></div>
+                <div class="col-md-6 col-sm-12 mb-3">
+                    <div id="map" class="map-container"></div>
                 </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+                <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
                     <div class="text-center">
                         <h2 class="mt-0">Контакты</h2>
                         <hr class="divider"/>
@@ -603,13 +644,17 @@
                         <label>4. Заполните пожалуйста следующие данные и мы Вам позвоним для предоставления более подробной консультации:</label><br>
                         <input type="text" name="fullName" required placeholder="ФИО"><br>
                         <input type="text" type="number" required name="phone" placeholder="Контактный телефон"><br>
+
                         <label>Физическое / юридическое лицо (выбрать ответ)</label><br>
-                        <select name="legalStatus" required>
+                        <select name="legalStatus" id="legalStatus" required onchange="toggleOrganizationInput()">
                             <option value="null" disabled selected>Выберите ответ</option>
                             <option value="физическое лицо">Физическое лицо</option>
                             <option value="юридическое лицо">Юридическое лицо</option>
                         </select><br>
-                        <input type="text" name="organizationName" placeholder="Если юр. лицо, то надо написать Наименование организации"><br>
+
+                        <div id="organizationInput" style="display: none;">
+                            <input type="text" name="organizationName" placeholder="Наименование организации">
+                        </div>
                     </div>
                 </div>
             </form>
@@ -658,6 +703,18 @@
     </div>
 </div>
 </body>
+<script>
+    function toggleOrganizationInput() {
+        const legalStatus = document.getElementById('legalStatus').value;
+        const organizationInput = document.getElementById('organizationInput');
+
+        if (legalStatus === 'юридическое лицо') {
+            organizationInput.style.display = 'block';
+        } else {
+            organizationInput.style.display = 'none';
+        }
+    }
+</script>
 @vite('resources/js/app.js')
 @vite('resources/js/map.js')
 @vite('resources/js/modal.js')
