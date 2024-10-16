@@ -211,7 +211,8 @@ button {
 
 .header_section {
     width: 100%;
-    background: linear-gradient(90deg, #ae885e 61%, #f8f2e2 61%);
+    /*background: linear-gradient(90deg ,#ae885e 61%, #f8f2e2 61%);*/
+    background: #ae885e;
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -316,6 +317,7 @@ a.navbar-brand {
     width: 100%;
     float: left;
     padding: 100px 0px;
+    margin-left: 50px;
 }
 
 .banner_taital_main {
@@ -612,6 +614,12 @@ a.navbar-brand {
 @media (max-width: 768px) {
     .flex-item {
         flex: 1 1 45%; /* On smaller screens, 2 items per row */
+    }
+    .banner_section {
+        width: 100%;
+        float: left;
+        padding: 100px 0px;
+        margin-left: 0px;
     }
 }
 
