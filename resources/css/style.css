@@ -212,7 +212,7 @@ button {
 .header_section {
     width: 100%;
     /*background: linear-gradient(90deg ,#ae885e 61%, #f8f2e2 61%);*/
-    background: #ae885e;
+    background: #eae7dc;
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@ a.navbar-brand {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 3px 5px;
     font-size: 16px;
-    color: #fefefd;
+    color: #3c1904;
     margin: 0px 6px;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -262,14 +262,14 @@ a.navbar-brand {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #fefefd;
-    border: 1px solid #fefefd;
+    color: #3c1904;
+    border: 1px solid #3c1904;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #fefefd;
-    border: 1px solid #fefefd;
+    color: #3c1904;
+    border: 1px solid #3c1904;
 }
 
 .navbar-brand {
@@ -298,7 +298,7 @@ a.navbar-brand {
 .login_bt li a {
     float: left;
     font-size: 18px;
-    color: #ae885e;
+    color: #eae7dc;
     text-transform: uppercase;
     padding: 0px 0px 0px 50px;
 }
@@ -329,7 +329,7 @@ a.navbar-brand {
 .banner_taital {
     width: 90%;
     font-size: 36px;
-    color: #fefefd;
+    color: #3c1904;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -337,7 +337,7 @@ a.navbar-brand {
 .banner_text {
     width: 100%;
     font-size: 16px;
-    color: #fefefd;
+    color: #3c1904;
     float: left;
     padding-top: 10px;
     margin: 0px;
@@ -355,7 +355,7 @@ a.navbar-brand {
     float: left;
     padding: 8px 10px;
     color: #ffffff;
-    background-color: #e73232;
+    background-color: #e85a4f;
     text-align: center;
     font-size: 18px;
     text-transform: uppercase;
@@ -363,7 +363,7 @@ a.navbar-brand {
 }
 
 .started_bt a:hover {
-    color: #ae885e;
+    color: #3c1904;
     background-color: #ffffff;
 }
 
@@ -378,7 +378,7 @@ a.navbar-brand {
     width: 100%;
     float: left;
     padding: 8px 10px;
-    color: #ffffff;
+    color: #3c1904;
     background-color: #e73232;
     text-align: center;
     font-size: 18px;
@@ -387,12 +387,12 @@ a.navbar-brand {
 }
 
 .readmore_btn a:hover {
-    color: #ae885e;
+    color: #3c1904;
     background-color: #ffffff;
 }
 
 .readmore_btn.active a {
-    color: #ae885e;
+    color: #3c1904;
     background-color: #ffffff;
 }
 
@@ -406,8 +406,8 @@ a.navbar-brand {
     left: initial;
     top: 180px;
     right: -14px;
-    color: #ffffff;
-    background-color: #ae885e;
+    color: #3c1904;
+    background-color: #eae7dc;
 }
 
 #banner_slider a.carousel-control-next {
@@ -419,7 +419,7 @@ a.navbar-brand {
 #banner_slider .carousel-control-prev {
     width: 55px;
     height: 55px;
-    background: #e73232;
+    background: #e98074;
     opacity: 1;
     font-size: 16px;
     color: #ffffff;
@@ -429,8 +429,8 @@ a.navbar-brand {
 #banner_slider .carousel-control-next:hover,
 #banner_slider .carousel-control-prev:focus,
 #banner_slider .carousel-control-prev:hover {
-    color: #ffffff;
-    background-color: #ae885e;
+    color: #3c1904;
+    background-color: #eae7dc;
 }
 
 
@@ -479,8 +479,8 @@ a.navbar-brand {
 .right_arrow {
     width: 50px;
     font-size: 20px;
-    color: #ffffff;
-    background-color: #ae885e;
+    color: #3c1904;
+    background-color: #eae7dc;
     border-radius: 100%;
     text-align: center;
     padding: 7px;
@@ -500,7 +500,7 @@ a.navbar-brand {
 .appoinment_text {
     width: 100%;
     font-size: 20px;
-    color: #ae885e;
+    color: #eae7dc;
     font-weight: bold;
     padding-bottom: 0px;
 }
@@ -635,7 +635,7 @@ a.navbar-brand {
 /*}*/
 
 .services_section_2 .corporate_text {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -647,7 +647,7 @@ a.navbar-brand {
 .corporate_text {
     width: 100%;
     float: left;
-    color: #ae885e;
+    color: #3c1904;
     font-size: 24px;
     text-transform: uppercase;
     font-weight: bold;
@@ -659,7 +659,7 @@ p.chunks_text {
     float: left;
     font-size: 16px;
     margin: 0px;
-    color: #ae885e;
+    color: #3c1904;
 }
 
 .readmore_button {
@@ -672,8 +672,8 @@ p.chunks_text {
     width: 160px;
     float: left;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #ae885e;
+    color: #3c1904;
+    background-color: #eae7dc;
     text-align: center;
     padding: 10px;
     border-radius: 5px;
@@ -692,20 +692,20 @@ p.chunks_text {
 }
 
 .service_box:hover .corporate_text {
-    color: #e73232;
+    color: #e85a4f;
 }
 
 .service_box:hover .readmore_button a {
-    background-color: #e73232;
+    background-color: #e85a4f;
     color: #ffffff;
 }
 
 .service_box.active .corporate_text {
-    color: #e73232;
+    color: #e85a4f;
 }
 
 .service_box.active .readmore_button a {
-    background-color: #e73232;
+    background-color: #e85a4f;
     color: #ffffff;
 }
 
@@ -723,10 +723,10 @@ p.chunks_text {
 #main_slider .carousel-control-prev {
     width: 55px;
     height: 55px;
-    background: #ae885e;
+    background: #eae7dc;
     opacity: 1;
     font-size: 16px;
-    color: #ffffff;
+    color: #3c1904;
     border-radius: 100px;
 }
 
@@ -734,7 +734,7 @@ p.chunks_text {
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-prev:hover {
-    color: #ffffff;
+    color: #3c1904;
     background-color: #e73232
 }
 
@@ -754,7 +754,7 @@ p.chunks_text {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #ae885e;
+    color: #3c1904;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
@@ -769,7 +769,7 @@ p.chunks_text {
 
 .studies_box {
     flex: 1; /* Make both columns equal width */
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -835,7 +835,7 @@ figure:hover+span {
     width: 100%;
     float: left;
     text-align: center;
-    color: #ae885e;
+    color: #3c1904;
     font-size: 20px;
     padding: 0px;
     text-transform: uppercase;
@@ -852,22 +852,22 @@ figure:hover+span {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #3c1904;
     padding: 10px;
     text-align: center;
-    background-color: #ae885e;
+    background-color: #eae7dc;
     margin-top: 30px;
     border-radius: 5px;
     text-transform: uppercase;
 }
 
 .read_bt a:hover {
-    color: #ffffff;
+    color: #3c1904;
     background-color: #e53232;
 }
 
 .read_bt.active a {
-    color: #ffffff;
+    color: #3c1904;
     background-color: #e53232;
 }
 
@@ -880,7 +880,7 @@ figure:hover+span {
 .about_section {
     width: 100%;
     float: left;
-    background-color: #ae885e;
+    background-color: #eae7dc;
     height: auto;
     padding: 30px 0px 40px 0px;
 }
@@ -895,7 +895,7 @@ figure:hover+span {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #ffffff;
+    color: #3c1904;
     font-weight: bold;
 }
 
@@ -903,12 +903,12 @@ figure:hover+span {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #fefefd;
+    color: #3c1904;
     margin: 30px 0px 0px 0px;
 }
 
 .about_text p {
-    color: #fefefd;
+    color: #3c1904;
 }
 
 .about_img {
@@ -921,7 +921,7 @@ figure:hover+span {
     float: left;
     text-align: center;
     font-size: 40px;
-    color: #ffffff;
+    color: #3c1904;
     font-weight: bold;
 }
 
@@ -935,7 +935,7 @@ figure:hover+span {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #3c1904;
     background-color: #e73232;
     text-align: center;
     padding: 10px;
@@ -944,8 +944,8 @@ figure:hover+span {
 }
 
 .readmore_bt a:hover {
-    color: #ffffff;
-    background-color: #ae885e;
+    color: #3c1904;
+    background-color: #eae7dc;
 }
 
 
@@ -1031,7 +1031,7 @@ textarea#comment::placeholder {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #ae885e;
+    color: #3c1904;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
@@ -1089,7 +1089,7 @@ textarea#comment::placeholder {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ae885e;
+    color: #eae7dc;
     margin: 20px 0px 0px 0px;
 }
 
@@ -1107,7 +1107,7 @@ textarea#comment::placeholder {
 #my_slider .carousel-control-prev {
     width: 55px;
     height: 55px;
-    background: #ae885e;
+    background: #eae7dc;
     opacity: 1;
     font-size: 18px;
     color: #ffffff;
@@ -1283,7 +1283,7 @@ textarea#comment::placeholder {
 .send_bt a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #e73232;
+    background-color: #e85a4f;
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
@@ -1293,7 +1293,7 @@ textarea#comment::placeholder {
 
 .send_bt a:hover {
     background-color: #ffffff;
-    color: #ae885e;
+    color: #3c1904;
 }
 
 /* Style for progress indicator */
@@ -1307,8 +1307,8 @@ textarea#comment::placeholder {
     width: 30px;
     height: 30px;
     line-height: 30px;
-    background-color: #ddd;
-    color: #000;
+    background-color: #eae7dc;
+    color: #3c1904;
     border-radius: 50%;
     text-align: center;
     font-weight: bold;
@@ -1316,17 +1316,19 @@ textarea#comment::placeholder {
 
 /* Green color for completed steps */
 .completed-step {
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: rgba(131, 194, 134, 0.6);
+    color: #3c1904;
 }
 
 /* Style for the current active step */
 .active-step {
-    background-color: #FF9800;
-    color: #fff;
+    background-color: #e98074;
+    color: #ffffff;
 }
 
-
+.question {
+    color: #3c1904;
+}
 /* contact section end */
 
 
@@ -1335,7 +1337,7 @@ textarea#comment::placeholder {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #ae885e;
+    background-color: #eae7dc;
     height: auto;
     padding: 80px 0px 30px 0px;
 }
@@ -1396,7 +1398,7 @@ textarea#comment::placeholder {
     font-size: 20px;
     color: #ffffff;
     margin: 0px 30px;
-    background-color: #e73232;
+    background-color: #e98074;
     padding: 12px 0px;
     border-radius: 100%;
     width: 60px;
@@ -1404,7 +1406,7 @@ textarea#comment::placeholder {
 }
 
 .location_text li a:hover {
-    color: #252525;
+    color: #3c1904;
     background-color: #ffffff;
 }
 
@@ -1417,7 +1419,7 @@ textarea#comment::placeholder {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #ae885e;
+    background-color: #eae7dc;
     height: auto;
 }
 
@@ -1425,13 +1427,13 @@ textarea#comment::placeholder {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #3c1904;
     text-align: center;
     margin-left: 0px;
 }
 
 .copyright_text a {
-    color: #ffffff;
+    color: #3c1904;
 }
 
 .copyright_text a:hover {
@@ -1514,7 +1516,7 @@ textarea#comment::placeholder {
 
 .modal-header {
     padding: 10px 20px;
-    background-color: #ae885e;
+    background-color: #eae7dc;
     color: white;
     font-size: 18px;
     display: flex;
@@ -1539,7 +1541,7 @@ textarea#comment::placeholder {
 
 .modal-footer button {
     padding: 10px 20px;
-    background-color: #e73232;
+    background-color: #e98074;
     color: white;
     border: none;
     border-radius: 5px;
@@ -1547,7 +1549,8 @@ textarea#comment::placeholder {
 }
 
 .modal-footer button:hover {
-    background-color: #ae885e;
+    background-color: white;
+    color: #3c1904;
 }
 
 input[type="text"], input[type="email"], select {

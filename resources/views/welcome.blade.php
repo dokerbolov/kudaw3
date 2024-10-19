@@ -43,7 +43,7 @@
 <div class="header_section">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,14 +52,14 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#index">Главная <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-us">О Нас</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#what-we">Преимущества</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#regulations">Регламент</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">О нас</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#heroes">Арбитры</a>
@@ -83,12 +83,11 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="banner_taital_main">
-                                    <h3 class="banner_taital">Международный Арбитражный Суд "Pactum"</h3>
-                                    <p class="banner_text">Создан и функционирует в соответствии
-                                        с действующим законодательством Республики Казахстан и является независимым, самостоятельным постоянно действующим органом
-                                        по разрешению споров, возникающих между субъектами гражданских правоотношений.
-                                        На сегодняшний день арбитраж представляет собой наиболее быстрый и эффективный механизм разрешения споров и разногласий,
-                                        возникающих в результате договорных и иных гражданско-правовых отношений. Большинство коммерческих и экономических споров рассматривается именно арбитражными судами.
+                                    <h3 class="banner_taital">Добро пожаловать на сайт Международного Арбитражного Суда "PACTUM"!</h3>
+                                    <p class="banner_text">
+                                        <b>Наш суд</b> специализируется на разрешении международных споров с использованием независимого и беспристрастного арбитражного процесса. Мы предлагаем профессиональные и справедливые решения, обеспечивая эффективное урегулирование конфликтов в соответствии с международными стандартами и правовыми нормами.
+                                        </br></br><b>Наша миссия</b> — содействовать защите ваших прав и интересов, предоставляя платформу для мирного и конструктивного разрешения споров в бизнесе, торговле и других областях.
+                                        </br></br><b>Обратитесь к нам, и мы поможем вам найти справедливое решение в условиях конфиденциальности и профессионализма!</b>
                                     </p>
                                     <div class="readmore_btn active"><a href="#about-us">Подробнее</a></div>
                                     <div class="started_bt"><a href="#contacts">Контакты</a></div>
@@ -148,81 +147,79 @@
 {{--</div>--}}
 <!-- box section end -->
 <!-- services section start -->
-<div id="what-we" class="services_section" style="background: #F8F2E2">
+<div id="what-we" class="services_section" style="background: #d8c3a5">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1 style="background: #F8F2E2" class="customer_taital">ПРЕИМУЩЕСТВА</h1>
+                <h1 style="background: #d8c3a5" class="customer_taital">ПРЕИМУЩЕСТВА</h1>
             </div>
         </div>
     </div>
-    <div class="services_section_2" style="margin-top: 0; padding-top: 0; padding-bottom: 0">
+    <div class="services_section_2" style="margin-top: 0; padding-top: 0; padding-bottom: 0; background: #d8c3a5">
         <div class="container-fluid">
-            <!-- Flex Container for Row 1 -->
             <div class="services_row flex-container">
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/9.png" class="image_1" alt=""/>
-                        <img src="images/icons/9.png" class="image_2" alt=""/>
+                        <img src="images/icons/19.png" class="image_1" alt=""/>
+                        <img src="images/icons/19.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Международное признание</h3>
                 </div>
+{{--                <div class="service_box flex-item">--}}
+{{--                    <div class="house_icon">--}}
+{{--                        <img src="images/icons/14.png" class="image_1" alt=""/>--}}
+{{--                        <img src="images/icons/14.png" class="image_2" alt=""/>--}}
+{{--                    </div>--}}
+{{--                    <h3 class="corporate_text">Порядок исполнения решений арбитража</h3>--}}
+{{--                </div>--}}
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/4.png" class="image_1" alt=""/>
-                        <img src="images/icons/4.png" class="image_2" alt=""/>
-                    </div>
-                    <h3 class="corporate_text">Порядок исполнения решений арбитража</h3>
-                </div>
-                <div class="service_box flex-item">
-                    <div class="house_icon">
-                        <img src="images/icons/6.png" class="image_1" alt=""/>
-                        <img src="images/icons/6.png" class="image_2" alt=""/>
+                        <img src="images/icons/16.png" class="image_1" alt=""/>
+                        <img src="images/icons/16.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Упрощенная процедура разбирательства спора</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/2.png" class="image_1" alt=""/>
-                        <img src="images/icons/2.png" class="image_2" alt=""/>
+                        <img src="images/icons/12.png" class="image_1" alt=""/>
+                        <img src="images/icons/12.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Возможность мирного урегулирования спора</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/3.png" class="image_1" alt=""/>
-                        <img src="images/icons/3.png" class="image_2" alt=""/>
+                        <img src="images/icons/13.png" class="image_1" alt=""/>
+                        <img src="images/icons/13.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Профессионализм и компетентность</h3>
                 </div>
-            </div>
-            <!-- Flex Container for Row 2 -->
-            <div class="services_row flex-container">
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/8.png" class="image_1" alt=""/>
-                        <img src="images/icons/8.png" class="image_2" alt=""/>
+                        <img src="images/icons/18.png" class="image_1" alt=""/>
+                        <img src="images/icons/18.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Сокращенные и сжатые сроки рассмотрения споров</h3>
                 </div>
+{{--            </div>--}}
+{{--            <div class="services_row flex-container">--}}
+{{--                <div class="service_box flex-item">--}}
+{{--                    <div class="house_icon">--}}
+{{--                        <img src="images/icons/17.png" class="image_1" alt=""/>--}}
+{{--                        <img src="images/icons/17.png" class="image_2" alt=""/>--}}
+{{--                    </div>--}}
+{{--                    <h3 class="corporate_text">Экономичность</h3>--}}
+{{--                </div>--}}
+{{--                <div class="service_box flex-item">--}}
+{{--                    <div class="house_icon">--}}
+{{--                        <img src="images/icons/11.png" class="image_1" alt=""/>--}}
+{{--                        <img src="images/icons/11.png" class="image_2" alt=""/>--}}
+{{--                    </div>--}}
+{{--                    <h3 class="corporate_text">Гибкость и комфорт</h3>--}}
+{{--                </div>--}}
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/7.png" class="image_1" alt=""/>
-                        <img src="images/icons/7.png" class="image_2" alt=""/>
-                    </div>
-                    <h3 class="corporate_text">Экономичность</h3>
-                </div>
-                <div class="service_box flex-item">
-                    <div class="house_icon">
-                        <img src="images/icons/1.png" class="image_1" alt=""/>
-                        <img src="images/icons/1.png" class="image_2" alt=""/>
-                    </div>
-                    <h3 class="corporate_text">Гибкость и комфорт</h3>
-                </div>
-                <div class="service_box flex-item">
-                    <div class="house_icon">
-                        <img src="images/icons/5.png" class="image_1" alt=""/>
-                        <img src="images/icons/5.png" class="image_2" alt=""/>
+                        <img src="images/icons/15.png" class="image_1" alt=""/>
+                        <img src="images/icons/15.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Конфиденциальность арбитражного разбирательства</h3>
                 </div>
@@ -231,33 +228,30 @@
     </div>
 </div>
 <!-- services section end -->
-<!-- studies section start -->
-<div class="studies_section layout_padding">
+<!-- regulations section start -->
+<div id="regulations" class="studies_section layout_padding">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="studies_taital">СОГЛАШЕНИЕ</h1>
+                <h1 class="studies_taital">РЕГЛАМЕНТ
+                    <br> <h3 class="introduction_text">НУ Международный арбитражный суд "Pactum"</h3>
+                </h1>
             </div>
         </div>
         <div class="studies_section_2">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="studies_box">
-                        <h3 class="introduction_text">Положение об арбитражных расходах и сборах</h3>
-                        <figure><img src="images/service-img4.png" alt=""/></figure>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="studies_box">
-                        <h3 class="introduction_text">Регламент НУ Международного арбитражного суда "Pactum"</h3>
-                        <figure><img src="images/service-img5.png" alt=""/></figure>
+                <div class="col-md-12">
+                    <div class="row justify-content-center">
+                        <iframe src="{{ asset('files/regulations_pactum.pdf') }}" width="50%" height="600">
+                            This browser does not support PDFs. Please download the PDF to view it: <a href="{{ asset('files/regulations_pactum.pdf') }}">Download PDF</a>
+                        </iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- studies section end -->
+<!-- regulations section end -->
 <!-- about section start -->
 <div id="about-us" class="about_section layout_padding">
     <div class="container">
@@ -267,10 +261,17 @@
             </div>
             <div class="col-md-6">
                 <h1 class="about_taital">О нас</h1>
+{{--                <p class="banner_text">Международный Арбитражный Суд "Pactum", cоздан и функционирует в соответствии с действующим законодательством Республики Казахстан и является независимым, самостоятельным постоянно действующим органом по разрешению споров, возникающих между субъектами гражданских правоотношений.--}}
+{{--                    На сегодняшний день арбитраж представляет собой наиболее быстрый и эффективный механизм разрешения споров и разногласий, возникающих в результате договорных и иных гражданско-правовых отношений. Большинство коммерческих и экономических споров рассматривается именно арбитражными судами. Некоммерческое учреждение «Международный Арбитражный суд «Pactum» предлагает экономически целесообразные, независимые и оперативные услуги по разрешению корпоративных споров, выступая удобной альтернативой судебным разбирательствам в государственных судебных органах Казахстана.--}}
+{{--                </p>--}}
+                <p class="banner_text">
+                    <b>Международный Арбитражный Суд "PACTUM"</b> – это независимая и авторитетная организация, созданная для разрешения международных споров с помощью арбитражных процедур.
+                    Мы объединяем профессиональных арбитров с многолетним опытом работы в различных отраслях права и международного бизнеса.
+                    Наш суд действует на основе международных стандартов и функционирует в соответствии с действующим законодательством Республики Казахстан, обеспечивая беспристрастность, справедливость и прозрачность в каждом деле.
+                    </br></br><b>Основные принципы работы "PACTUM"</b>  — это эффективность, конфиденциальность и профессионализм. Мы предоставляем надежную платформу для мирного разрешения споров, минимизируя риски и затраты, связанные с традиционными судебными процессами. В наших процедурах гарантируется быстрое и объективное рассмотрение дел, что позволяет нашим клиентам эффективно защищать свои права и интересы.
+                    </br></br><b>Мы гордимся нашей репутацией и доверием, которое нам оказывают международные компании, организации и частные лица, выбирая "PACTUM" для решения своих споров.</b>
+                </p>
                 <div class="about_text_main row">
-                    <p class="about_text">Создан и функционирует в соответствии
-                        с действующим законодательством Республики Казахстан и является независимым, самостоятельным постоянно действующим органом
-                        по разрешению споров, возникающих между субъектами гражданских правоотношений.</p>
                     <div class="send_bt">
                         <a href="#about-us" id="openModalBtn">Оставить заявку</a>
                     </div>
@@ -282,55 +283,61 @@
 <!-- about section end -->
 
 <!-- heroes section start -->
-<div class="container mt-5">
-    <div id="heroes" class="row">
-        <text class="customer_taital">АРБИТРЫ</text>
-        <!-- First row with 4 items -->
-        <text class="text_hero">
-            Некоммерческое учреждение «Международный Арбитражный суд «Pactum» предлагает экономически целесообразные, независимые и оперативные услуги по разрешению корпоративных споров, выступая удобной альтернативой судебным разбирательствам в государственных судебных органах Казахстана.
-            Арбитры НУ «Международный Арбитражный суд «Pactum» — это профессиональные юристы с обширным опытом рассмотрения судебных споров как в арбитражах, так и в судах.
-            Мы являемся коллективом высококвалифицированных арбитров и медиаторов, обладающих значительным опытом в юридической сфере и компетентных в разрешении судебных споров. Мы открыты для проведения переговоров с целью обсуждения перспектив нашего взаимовыгодного сотрудничества.
-        </text>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/samal.png" class="image_hero" alt="Person 1">
-            <h4><b>Ордабаева Самал Токтасыновна</b></h4>
-            <p>Председатель НУ МАС "Pactum"</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/zhanar.png" class="image_hero" alt="Person 2">
-            <h4><b>Садыкова Жанар Еркинбековна</b></h4>
-            <p style="margin: 0;">Постоянно действующий арбитр в Некоммерческом учреждении «Международный Арбитражный Суд «Pactum»</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">
-            <img src="images/heroes/konstantin.png" class="image_hero" alt="Person 6">
-            <h4><b>Константин Игоревич Иванов</b></h4>
-            <p>Эксперт-практик в области коммерческого, договорного и арбитражного права</p>
-        </div>
-    </div>
 
-    <div class="row">
-        <!-- Second row with 3 items -->
-        {{--        <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center mb-4">--}}
-        {{--            <img src="images/heroes/tatyana.png" class="image_hero" alt="Person 3">--}}
-        {{--            <h4><b>Бровко Татьяна Владимировна</b></h4>--}}
-        {{--            <p>Главный менеджер Управления правовой защиты Департамента правовой работы АО «Народный Банк Казахстана»</p>--}}
-        {{--        </div>--}}
-        {{--        <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-center mb-4">--}}
-        {{--            <img src="images/heroes/sergei.png" class="image_hero" alt="Person 4">--}}
-        {{--            <h4><b>Степасюк Сергей Николаевич</b></h4>--}}
-        {{--            <p>Директор ТОО Юридическая фирма BRAUS</p>--}}
-        {{--        </div>--}}
-{{--        <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">--}}
-{{--            <img src="images/heroes/serik.png" class="image_hero" alt="Person 5">--}}
-{{--            <h4><b>Сюндиков Серик Токтарбекович</b></h4>--}}
-{{--            <p>Профессиональный медиатор международного уровня</p>--}}
-{{--        </div>--}}
-
-{{--        <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mb-4">--}}
-{{--            <img src="images/heroes/anton.png" class="image_hero" alt="Person 7">--}}
-{{--            <h4><b>Бадиков Антон Александрович</b></h4>--}}
-{{--            <p>Директор ТОО «Юридическая компания «Legal aspect»</p>--}}
-{{--        </div>--}}
+<div id="heroes" class="about_section layout_padding" style="background: #d8c3a5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 style="background: #d8c3a5" class="studies_taital">АРБИТРЫ</h1>
+                <div class="row">
+{{--                    <p class="about_text">--}}
+{{--                        Арбитры НУ «Международный Арбитражный суд «Pactum» — это профессиональные юристы с обширным опытом рассмотрения судебных споров как в арбитражах, так и в судах.--}}
+{{--                        Мы являемся коллективом высококвалифицированных арбитров и медиаторов, обладающих значительным опытом в юридической сфере и компетентных в разрешении судебных споров. Мы открыты для проведения переговоров с целью обсуждения перспектив нашего взаимовыгодного сотрудничества.--}}
+{{--                    </p>--}}
+                    <p class="about_text">
+                        <b>Арбитры Международного Арбитражного Суда "PACTUM"</b> — это ключевые фигуры, обеспечивающие объективное и справедливое разрешение споров. Наши арбитры обладают высокой квалификацией в области международного права, финансов, торговли и других отраслей, что позволяет им компетентно решать самые сложные споры.
+                        </br></br>Каждый из них проходит тщательный отбор на основе опыта, профессиональной репутации и соответствия международным стандартам. Независимость и беспристрастность наших арбитров гарантируют, что все решения принимаются исключительно на основе фактов и норм права, без какого-либо влияния внешних факторов.
+                        </br></br><b>Арбитры "PACTUM" предоставляют клиентам уверенность в том, что их дела будут рассмотрены справедливо, прозрачно и в соответствии с высшими международными стандартами. Мы гордимся нашим коллективом, который сочетает экспертное знание с глубокой преданностью принципам арбитражного судопроизводства.</b>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="services_section_2" style="margin-top: 0; padding-top: 0; padding-bottom: 0; background: #d8c3a5">
+                        <div class="container-fluid">
+                            <!-- Flex Container for Row 1 -->
+                            <div class="services_row flex-container">
+                                <div class="service_box flex-item">
+                                    <div class="house_icon">
+                                        <img src="images/heroes/samal.png" class="image_hero" alt="Ордабаева Самал Токтасыновна">
+                                    </div>
+                                    <h3 class="about_text">
+                                        <b>Ордабаева Самал Токтасыновна</b>
+                                        <p class="banner_text">Председатель НУ МАС "Pactum"</p>
+                                    </h3>
+                                </div>
+                                <div class="service_box flex-item">
+                                    <div class="house_icon">
+                                        <img src="images/heroes/zhanar.png" class="image_hero" alt="Садыкова Жанар Еркинбековна">
+                                    </div>
+                                    <h3 class="about_text">
+                                        <b>Садыкова Жанар Еркинбековна</b>
+                                        <p class="banner_text">Постоянно действующий арбитр в Некоммерческом учреждении «Международный Арбитражный Суд «Pactum»</p>
+                                    </h3>
+                                </div>
+                                <div class="service_box flex-item">
+                                    <div class="house_icon">
+                                        <img src="images/heroes/konstantin.png" class="image_hero" alt="Константин Игоревич Иванов">
+                                    </div>
+                                    <h3 class="about_text">
+                                        <b>Константин Игоревич Иванов</b>
+                                        <p class="banner_text">Эксперт-практик в области коммерческого, договорного и арбитражного права</p>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -341,27 +348,33 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="award_title">Арбитражное заключение</h1>
+                <h1 class="award_title">ЗАКЛЮЧЕНИЕ</h1>
                 <div class="row">
                     <p class="about_text">
-                        <b>Арбитражное соглашение может быть заключено путем совершения:</b>
-                        <ul class="about_text">
-                            <li>
-                                - арбитражной оговорки в документе, подписанном сторонами (как правило, арбитражная оговорка включается в текст основного договора);
-                            </li>
-                            <li>
-                                - самостоятельного арбитражного соглашения, независимого от основного договора;
-                            </li>
-                            <li>
-                                - арбитражного соглашения, заключаемого путем обмена письмами, телеграммами, телефонограммами, факсами, электронными документами или иными документами, определяющими состав субъектов и содержание их волеизъявления;
-                            </li>
-                            <li>
-                                - арбитражного соглашения, заключаемого путем обмена исками и отзывом на иск, в которых одна из сторон утверждает о наличии соглашения, а другая против этого не возражает;
-                            </li>
-                            <li>
-                                - отсылки в договоре на документ, из содержания которого следует о передаче спора на разрешение арбитража при условии, что договор заключен в письменной форме, и данная ссылка такова, что делает арбитражное соглашение частью договора (статья 9 Закона об арбитраже).
-                            </li>
-                        </ul>
+                        Арбитражное соглашение может быть заключено несколькими способами:
+                        </br></br><b>- Арбитражная оговорка в документе</b>, подписанном сторонами (чаще всего включается непосредственно в текст основного договора);
+                        </br><b>- Отдельное арбитражное соглашение</b>, независимое от основного договора;
+                        </br><b>- Арбитражное соглашение, заключенное через обмен корреспонденцией</b>: письмами, телеграммами, телефонограммами, факсами, электронными или другими документами, подтверждающими состав участников и их волеизъявление;
+                        </br><b>- Арбитражное соглашение, оформленное через обмен исками и отзывами на иск</b>, где одна из сторон заявляет о наличии соглашения, а другая не возражает против этого;
+                        </br><b>- Ссылка в договоре на документ</b>, содержащий указание на передачу спора в арбитраж. При этом договор должен быть заключен в письменной форме, а ссылка — достаточной для включения арбитражного соглашения в состав договора (в соответствии со статьей 9 Закона об арбитраже).
+                        </br></br><b>Каждый из этих способов обеспечивает юридическую силу арбитражного соглашения, предоставляя сторонам надежный инструмент для разрешения споров в рамках арбитража.</b>
+{{--                        <ul class="about_text">--}}
+{{--                            <li>--}}
+{{--                                - арбитражной оговорки в документе, подписанном сторонами (как правило, арбитражная оговорка включается в текст основного договора);--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                - самостоятельного арбитражного соглашения, независимого от основного договора;--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                - арбитражного соглашения, заключаемого путем обмена письмами, телеграммами, телефонограммами, факсами, электронными документами или иными документами, определяющими состав субъектов и содержание их волеизъявления;--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                - арбитражного соглашения, заключаемого путем обмена исками и отзывом на иск, в которых одна из сторон утверждает о наличии соглашения, а другая против этого не возражает;--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                - отсылки в договоре на документ, из содержания которого следует о передаче спора на разрешение арбитража при условии, что договор заключен в письменной форме, и данная ссылка такова, что делает арбитражное соглашение частью договора (статья 9 Закона об арбитраже).--}}
+{{--                            </li>--}}
+{{--                        </ul>--}}
                     </p>
                 </div>
             </div>
@@ -559,19 +572,18 @@
                 <div class="col-md-6 col-sm-12 mb-3">
                     <div id="map" class="map-container"></div>
                 </div>
-                <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+                <div class="col-md-6 col-sm-12 d-flex flex-column">
                     <div class="text-center">
-                        <h2 class="mt-0">Контакты</h2>
                         <hr class="divider"/>
-                        <p class="text-muted mb-5">
-                            Республика Казахстан, г. Алматы
-                        </p>
                         <p class="text-muted">
-                            Международный Арбитражный Суд "Pactum"
-                            <br> ул. Сайран 3, офис 64
-                            <br> тел: +7701 999 4929
-                            <br> тел: +7705 740 3021
-                            <br> E-mail: iac.pactum@gmail.com
+                            <b>
+                                Республика Казахстан, г. Алматы
+                                <br> Международный Арбитражный Суд "Pactum"
+                                <br> ул. Сайран 3, офис 64
+                                <br> тел: +7701 999 4929
+                                <br> тел: +7705 740 3021
+                                <br> E-mail: iac.pactum@gmail.com
+                            </b>
                         </p>
                         <div class="send_bt">
                             <a href="#contacts" id="openModalBtn2">Оставить заявку</a>
@@ -586,7 +598,7 @@
 <div id="myModal" class="modal">
     <div class="modal-content">
         <div class="modal-header">
-            <h2 style="color: #ffffff">Заявка</h2>
+            <h2 style="color: #3c1904">Заявка</h2>
             <span class="close">&times;</span>
         </div>
 
@@ -601,15 +613,6 @@
 
         <div class="modal-body">
             <form id="applicationForm">
-{{--                <div class="tab" id="tab1">--}}
-{{--                    <label>1. Вы желаете учавствовать в споре в Арбитраже?</label><br>--}}
-{{--                    <select id="question1" class="question" name="question1" data-question="1">--}}
-{{--                        <option value="null" disabled selected>Выберите ответ</option>--}}
-{{--                        <option value="Да">Да</option>--}}
-{{--                        <option value="Нет">Нет</option>--}}
-{{--                    </select><br>--}}
-{{--                </div>--}}
-
                 <div class="tab" id="tab1" style="display: none">
                     <label>1. У вас имеется спор между юридическими лицами?</label><br>
                     <select id="question1" class="question" name="question1" data-question="1">
@@ -679,7 +682,7 @@
                             <a href="https://wa.me/77057403021"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/pactum_iac/profilecard/?igsh=MTUxN3ZkaWdnYnM3Zw=="><i class="fab fa-instagram" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="#77057403021"><i class="fab fa-telegram" aria-hidden="true"></i></a>
@@ -688,7 +691,7 @@
                 </div>
             </div>
             <div class="footer_logo">
-                <a href="index.html">
+                <a href="#">
                     <img src="images/logo.png"/>
                 </a>
             </div>
