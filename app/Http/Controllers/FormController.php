@@ -20,8 +20,8 @@ class FormController extends Controller
     public function sendForm(Request $request)
     {
 
-        $to = "proface19@gmail.com";
-        $subject = "Новая заявка от сайта";
+        $to = "iac.pactum@gmail.com";
+        $subject = "Ковальский докладывает: Новая заявка от сайта";
         $legalStatus = 'Пусто';
         $organizationName = 'Пусто';
         if(isset($request->legalStatus)){
@@ -30,7 +30,7 @@ class FormController extends Controller
         if(isset($request->organizationName)){
             $organizationName = $request->organizationName;
         }
-        $messageBodyMail = "<b>НОВАЯ ЗАЯВКА </b> <br>" .
+        $messageBodyMail = "<b>Ковальский докладывает: НОВАЯ ЗАЯВКА </b> <br>" .
             "ФИО: $request->fullName <br>" .
             "Номер телефона: $request->phone <br>" .
             "Тип лица: $legalStatus <br>";
@@ -45,7 +45,7 @@ class FormController extends Controller
             "Какая оговорка у вас указана в договоре, в разделе Порядок решения споров?: <b> $request->question2 </b> <br>" .
             "Ваш спор ранее уже был на рассмотрении в государственном суде?: <b> $request->question3 </b> <br>";
 
-        $messageBodyTelegram = "<b>НОВАЯ ЗАЯВКА </b> \n" .
+        $messageBodyTelegram = "<b>Ковальский докладывает: НОВАЯ ЗАЯВКА </b> \n" .
             "ФИО: $request->fullName \n" .
             "Номер телефона: $request->phone \n" .
             "Тип лица: $legalStatus \n";

@@ -61,22 +61,22 @@ document.getElementById("nextButton").onclick = function() {
     var q3 = document.getElementById('question3').value;
     // var q4 = document.getElementById('question4').value;
     if (currentTab === 0) {
-        if (q1 != "null") {
+        if (q1 != "null" && q1 === "Да") {
             hideTab(currentTab);
             currentTab++;
             showTab(currentTab);
         } else if (q1 === "null") {
             Swal.fire({
                 icon: 'error',
-                title: 'Ошибка',
+                title: 'Ошибка, что-то пошло не так',
                 text: 'Пожалуйста, выберите ответ',
                 confirmButtonText: 'ОК'
             });
         } else {
             Swal.fire({
                 icon: 'error',
-                title: 'Отказ',
-                text: 'Спасибо за обращение, но к сожалению ваш спорный вопрос не находится в нашей юрисдикции',
+                title: 'Ошибка, что-то пошло не так',
+                text: 'Спасибо за ваше обращение, однако, к сожалению, ваш спор не подпадает под юрисдикцию нашего арбитражного суда.',
                 confirmButtonText: 'ОК'
             });
         }
@@ -96,8 +96,8 @@ document.getElementById("nextButton").onclick = function() {
     //     } else {
     //         Swal.fire({
     //             icon: 'error',
-    //             title: 'Отказ',
-    //             text: 'Спасибо за обращение, но к сожалению ваш спорный вопрос не находится в нашей юрисдикции',
+    //             title: 'Ошибка, что-то пошло не так',
+    //             text: 'Спасибо за ваше обращение, однако, к сожалению, ваш спор не подпадает под юрисдикцию нашего арбитражного суда.',
     //             confirmButtonText: 'ОК'
     //         });
     //     }
@@ -109,15 +109,15 @@ document.getElementById("nextButton").onclick = function() {
         } else if (q2 === "null") {
             Swal.fire({
                 icon: 'error',
-                title: 'Ошибка',
+                title: 'Ошибка, что-то пошло не так',
                 text: 'Пожалуйста, выберите ответ',
                 confirmButtonText: 'ОК'
             });
         } else {
             Swal.fire({
                 icon: 'error',
-                title: 'Отказ',
-                text: 'Спасибо за обращение, но к сожалению ваш спорный вопрос не находится в нашей юрисдикции',
+                title: 'Ошибка, что-то пошло не так',
+                text: 'Спасибо за ваше обращение, однако, к сожалению, ваш спор не подпадает под юрисдикцию нашего арбитражного суда.',
                 confirmButtonText: 'ОК'
             });
         }
@@ -129,15 +129,15 @@ document.getElementById("nextButton").onclick = function() {
         } else if (q3 === "null") {
             Swal.fire({
                 icon: 'error',
-                title: 'Ошибка',
+                title: 'Ошибка, что-то пошло не так',
                 text: 'Пожалуйста, выберите ответ',
                 confirmButtonText: 'ОК'
             });
         } else {
             Swal.fire({
                 icon: 'error',
-                title: 'Отказ',
-                text: 'Спасибо за обращение, но к сожалению ваш спорный вопрос не находится в нашей юрисдикции',
+                title: 'Ошибка, что-то пошло не так',
+                text: 'Спасибо за ваше обращение, однако, к сожалению, ваш спор не подпадает под юрисдикцию нашего арбитражного суда.',
                 confirmButtonText: 'ОК'
             });
         }
@@ -193,7 +193,7 @@ function sendToBackend() {
         // Show an error message if any field is empty
         Swal.fire({
             icon: 'error',
-            title: 'Ошибка',
+            title: 'Ошибка, что-то пошло не так',
             text: validation.errorMessage,
             confirmButtonText: 'ОК'
         });
@@ -204,7 +204,7 @@ function sendToBackend() {
 
     Swal.fire({
         title: 'Подождите...',
-        text: 'Идет обработка вашей заявки',
+        text: 'Идет обработка...',
         allowEscapeKey: false,
         allowOutsideClick: false,
         didOpen: () => {
@@ -221,7 +221,7 @@ function sendToBackend() {
         Swal.fire({
             icon: 'success',
             title: 'Успешно',
-            text: 'Ваша заявка отправлена на обратку, с вами свяжутся в ближайшее время',
+            text: 'Ваше обращение принято на рассмотрение, и с вами свяжутся в ближайшее время.',
             confirmButtonText: 'ОК'
         })
             .then(() => {
@@ -231,7 +231,7 @@ function sendToBackend() {
     }).catch(error => {
         Swal.fire({
             icon: 'error',
-            title: 'Ошибка',
+            title: 'Ошибка, что-то пошло не так',
             text: 'Произошла ошибка при отправке данных.',
             confirmButtonText: 'ОК'
         });
