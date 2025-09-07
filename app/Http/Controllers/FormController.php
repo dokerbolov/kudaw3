@@ -20,7 +20,7 @@ class FormController extends Controller
     public function sendForm(Request $request)
     {
 
-        $to = "iac.pactum@gmail.com";
+        $to = "interfin.sud@mail.ru";
         $subject = "Ковальский докладывает: Новая заявка от сайта";
         $legalStatus = 'Пусто';
         $organizationName = 'Пусто';
@@ -33,7 +33,8 @@ class FormController extends Controller
         $messageBodyMail = "<b>Ковальский докладывает: НОВАЯ ЗАЯВКА </b> <br>" .
             "ФИО: $request->fullName <br>" .
             "Номер телефона: $request->phone <br>" .
-            "Тип лица: $legalStatus <br>";
+            "Тип лица: $legalStatus <br>" .
+            "Тип сайта: Международный финансово-экономический арбитражный суд <br>";
 
         if ($organizationName !== 'Пусто' && !empty($organizationName)) {
             $messageBodyMail .= "Наименование организации: $organizationName <br><br>";
@@ -48,10 +49,13 @@ class FormController extends Controller
         $messageBodyTelegram = "<b>Ковальский докладывает: НОВАЯ ЗАЯВКА </b> \n" .
             "ФИО: $request->fullName \n" .
             "Номер телефона: $request->phone \n" .
-            "Тип лица: $legalStatus \n";
+            "Тип лица: $legalStatus \n" .
+             "Тип сайта: Международный финансово-экономический арбитражный суд \n";
 
         if ($organizationName !== 'Пусто' && !empty($organizationName)) {
             $messageBodyTelegram .= "Наименование организации: $organizationName \n\n";
+        }else {
+            $messageBodyTelegram .= "\n";
         }
 
         $messageBodyTelegram .= "Ответы по вопросам: \n" .
