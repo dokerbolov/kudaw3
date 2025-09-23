@@ -44,7 +44,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="Logo">
+                <img src="images/logo_economy.png" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,9 +55,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#what-we">Преимущества</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#regulations">Регламент</a>
-                    </li>
+{{--                    <li class="nav-item">--}}
+{{--                        <a class="nav-link" href="#regulations">Регламент</a>--}}
+{{--                    </li>--}}
                     <li class="nav-item">
                         <a class="nav-link" href="#about-us">О нас</a>
                     </li>
@@ -104,47 +104,6 @@
     </div>
     <!-- banner section end -->
 </div>
-<!-- header section end -->
-<!-- box section start -->
-{{--<div class="container">--}}
-{{--    <div class="box_section">--}}
-{{--        <div class="online_box">--}}
-{{--            <div class="online_box_left">--}}
-{{--                <div class="online_box_main">--}}
-{{--                    <div class="box_left">--}}
-{{--                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>--}}
-{{--                    </div>--}}
-{{--                    <div class="box_right">--}}
-{{--                        <p class="book_text">Book At</p>--}}
-{{--                        <h4 class="appoinment_text">Appoinment</h4>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="online_box_left">--}}
-{{--                <div class="online_box_main">--}}
-{{--                    <div class="box_left">--}}
-{{--                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>--}}
-{{--                    </div>--}}
-{{--                    <div class="box_right">--}}
-{{--                        <p class="book_text">Get Free</p>--}}
-{{--                        <h4 class="appoinment_text"> Evalution</h4>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="online_box_left">--}}
-{{--                <div class="online_box_main">--}}
-{{--                    <div class="box_left">--}}
-{{--                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>--}}
-{{--                    </div>--}}
-{{--                    <div class="box_right">--}}
-{{--                        <p class="book_text">Pay Invoice</p>--}}
-{{--                        <h4 class="appoinment_text">Online</h4>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</div>--}}
 <!-- box section end -->
 <!-- services section start -->
 <div id="what-we" class="services_section" style="background: #d8c3a5">
@@ -160,66 +119,43 @@
             <div class="services_row flex-container">
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/19.png" class="image_1" alt=""/>
-                        <img src="images/icons/19.png" class="image_2" alt=""/>
+                        <img src="images/icons/19-1.png" class="image_1" alt=""/>
+                        <img src="images/icons/19-1.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Международное признание</h3>
                 </div>
-{{--                <div class="service_box flex-item">--}}
-{{--                    <div class="house_icon">--}}
-{{--                        <img src="images/icons/14.png" class="image_1" alt=""/>--}}
-{{--                        <img src="images/icons/14.png" class="image_2" alt=""/>--}}
-{{--                    </div>--}}
-{{--                    <h3 class="corporate_text">Порядок исполнения решений арбитража</h3>--}}
-{{--                </div>--}}
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/16.png" class="image_1" alt=""/>
-                        <img src="images/icons/16.png" class="image_2" alt=""/>
+                        <img src="images/icons/16-1.png" class="image_1" alt=""/>
+                        <img src="images/icons/16-1.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Упрощенная процедура разбирательства спора</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/12.png" class="image_1" alt=""/>
-                        <img src="images/icons/12.png" class="image_2" alt=""/>
+                        <img src="images/icons/12-1.png" class="image_1" alt=""/>
+                        <img src="images/icons/12-1.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Возможность мирного урегулирования спора</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/13.png" class="image_1" alt=""/>
-                        <img src="images/icons/13.png" class="image_2" alt=""/>
+                        <img src="images/icons/13-1.png" class="image_1" alt=""/>
+                        <img src="images/icons/13-1.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Профессионализм и компетентность</h3>
                 </div>
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/18.png" class="image_1" alt=""/>
-                        <img src="images/icons/18.png" class="image_2" alt=""/>
+                        <img src="images/icons/18-1.png" class="image_1" alt=""/>
+                        <img src="images/icons/18-1.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Сокращенные и сжатые сроки рассмотрения споров</h3>
                 </div>
-{{--            </div>--}}
-{{--            <div class="services_row flex-container">--}}
-{{--                <div class="service_box flex-item">--}}
-{{--                    <div class="house_icon">--}}
-{{--                        <img src="images/icons/17.png" class="image_1" alt=""/>--}}
-{{--                        <img src="images/icons/17.png" class="image_2" alt=""/>--}}
-{{--                    </div>--}}
-{{--                    <h3 class="corporate_text">Экономичность</h3>--}}
-{{--                </div>--}}
-{{--                <div class="service_box flex-item">--}}
-{{--                    <div class="house_icon">--}}
-{{--                        <img src="images/icons/11.png" class="image_1" alt=""/>--}}
-{{--                        <img src="images/icons/11.png" class="image_2" alt=""/>--}}
-{{--                    </div>--}}
-{{--                    <h3 class="corporate_text">Гибкость и комфорт</h3>--}}
-{{--                </div>--}}
                 <div class="service_box flex-item">
                     <div class="house_icon">
-                        <img src="images/icons/15.png" class="image_1" alt=""/>
-                        <img src="images/icons/15.png" class="image_2" alt=""/>
+                        <img src="images/icons/15-1.png" class="image_1" alt=""/>
+                        <img src="images/icons/15-1.png" class="image_2" alt=""/>
                     </div>
                     <h3 class="corporate_text">Конфиденциальность арбитражного разбирательства</h3>
                 </div>
@@ -229,28 +165,28 @@
 </div>
 <!-- services section end -->
 <!-- regulations section start -->
-<div id="regulations" class="studies_section layout_padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1 class="studies_taital">РЕГЛАМЕНТ
-                    <br> <h3 class="introduction_text">НУ Международный финансово-экономический арбитражный суд</h3>
-                </h1>
-            </div>
-        </div>
-        <div class="studies_section_2">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row justify-content-center">
-                        <iframe src="{{ asset('files/regulations_pactum.pdf') }}" width="50%" height="600">
-                            This browser does not support PDFs. Please download the PDF to view it: <a href="{{ asset('files/regulations_pactum.pdf') }}">Download PDF</a>
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{{--<div id="regulations" class="studies_section layout_padding">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-sm-12">--}}
+{{--                <h1 class="studies_taital">РЕГЛАМЕНТ--}}
+{{--                    <br> <h3 class="introduction_text">НУ Международный финансово-экономический арбитражный суд</h3>--}}
+{{--                </h1>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="studies_section_2">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-md-12">--}}
+{{--                    <div class="row justify-content-center">--}}
+{{--                        <iframe src="{{ asset('files/regulations_pactum.pdf') }}" width="50%" height="600">--}}
+{{--                            This browser does not support PDFs. Please download the PDF to view it: <a href="{{ asset('files/regulations_pactum.pdf') }}">Download PDF</a>--}}
+{{--                        </iframe>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
 <!-- regulations section end -->
 <!-- about section start -->
 <div id="about-us" class="about_section layout_padding">
@@ -314,24 +250,24 @@
                                         <p class="banner_text">Председатель НУ МФЭАС</p>
                                     </h3>
                                 </div>
-{{--                                <div class="service_box flex-item">--}}
-{{--                                    <div class="house_icon">--}}
-{{--                                        <img src="images/heroes/zhanar.png" class="image_hero" alt="Садыкова Жанар Еркинбековна">--}}
-{{--                                    </div>--}}
-{{--                                    <h3 class="about_text">--}}
-{{--                                        <b>Садыкова Жанар Еркинбековна</b>--}}
-{{--                                        <p class="banner_text">Постоянно действующий арбитр в Некоммерческом учреждении «Международный Финансово-Экономический Арбитражный Суд»</p>--}}
-{{--                                    </h3>--}}
-{{--                                </div>--}}
-{{--                                <div class="service_box flex-item">--}}
-{{--                                    <div class="house_icon">--}}
-{{--                                        <img src="images/heroes/konstantin.png" class="image_hero" alt="Константин Игоревич Иванов">--}}
-{{--                                    </div>--}}
-{{--                                    <h3 class="about_text">--}}
-{{--                                        <b>Константин Игоревич Иванов</b>--}}
-{{--                                        <p class="banner_text">Эксперт-практик в области коммерческого, договорного и арбитражного права</p>--}}
-{{--                                    </h3>--}}
-{{--                                </div>--}}
+                                <div class="service_box flex-item">
+                                    <div class="house_icon">
+                                        <img src="images/heroes/zhanar.png" class="image_hero" alt="Садыкова Жанар Еркинбековна">
+                                    </div>
+                                    <h3 class="about_text">
+                                        <b>Садыкова Жанар Еркинбековна</b>
+                                        <p class="banner_text">Постоянно действующий арбитр в Некоммерческом учреждении «Международный Финансово-Экономический Арбитражный Суд»</p>
+                                    </h3>
+                                </div>
+                                <div class="service_box flex-item">
+                                    <div class="house_icon">
+                                        <img src="images/heroes/konstantin.png" class="image_hero" alt="Константин Игоревич Иванов">
+                                    </div>
+                                    <h3 class="about_text">
+                                        <b>Константин Игоревич Иванов</b>
+                                        <p class="banner_text">Эксперт-практик в области коммерческого, договорного и арбитражного права</p>
+                                    </h3>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -358,23 +294,6 @@
                         </br><b>- Арбитражное соглашение, оформленное через обмен исками и отзывами на иск</b>, где одна из сторон заявляет о наличии соглашения, а другая не возражает против этого;
                         </br><b>- Ссылка в договоре на документ</b>, содержащий указание на передачу спора в арбитраж. При этом договор должен быть заключен в письменной форме, а ссылка — достаточной для включения арбитражного соглашения в состав договора (в соответствии со статьей 9 Закона об арбитраже).
                         </br></br><b>Каждый из этих способов обеспечивает юридическую силу арбитражного соглашения, предоставляя сторонам надежный инструмент для разрешения споров в рамках арбитража.</b>
-{{--                        <ul class="about_text">--}}
-{{--                            <li>--}}
-{{--                                - арбитражной оговорки в документе, подписанном сторонами (как правило, арбитражная оговорка включается в текст основного договора);--}}
-{{--                            </li>--}}
-{{--                            <li>--}}
-{{--                                - самостоятельного арбитражного соглашения, независимого от основного договора;--}}
-{{--                            </li>--}}
-{{--                            <li>--}}
-{{--                                - арбитражного соглашения, заключаемого путем обмена письмами, телеграммами, телефонограммами, факсами, электронными документами или иными документами, определяющими состав субъектов и содержание их волеизъявления;--}}
-{{--                            </li>--}}
-{{--                            <li>--}}
-{{--                                - арбитражного соглашения, заключаемого путем обмена исками и отзывом на иск, в которых одна из сторон утверждает о наличии соглашения, а другая против этого не возражает;--}}
-{{--                            </li>--}}
-{{--                            <li>--}}
-{{--                                - отсылки в договоре на документ, из содержания которого следует о передаче спора на разрешение арбитража при условии, что договор заключен в письменной форме, и данная ссылка такова, что делает арбитражное соглашение частью договора (статья 9 Закона об арбитраже).--}}
-{{--                            </li>--}}
-{{--                        </ul>--}}
                     </p>
                 </div>
             </div>
@@ -383,184 +302,6 @@
 </div>
 <!-- about section end -->
 
-<!-- testimonial section start -->
-{{--<div id="heroes" class="customer_section layout_padding">--}}
-{{--    <div class="container">--}}
-{{--        <div class="row">--}}
-{{--            <div class="col-sm-12">--}}
-{{--                <h1 class="customer_taital">АРБИТРЫ</h1>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-
-<!-- Carousel using Bootstrap -->
-{{--    <div id="my_slider" class="carousel slide" data-bs-ride="carousel">--}}
-{{--        <div class="carousel-inner">--}}
-{{--            <!-- First Slide (Active) -->--}}
-{{--            <div class="carousel-item active">--}}
-{{--                <div class="customer_section_2">--}}
-{{--                    <div class="container">--}}
-{{--                        <div class="row">--}}
-{{--                            <div class="col-md-12">--}}
-{{--                                <div class="box_main">--}}
-{{--                                    <div class="customer_main">--}}
-{{--                                        <div class="customer_left">--}}
-{{--                                            <div class="customer_img">--}}
-{{--                                                <img class="image_hero" src="images/heroes/samal.jpg" alt=""/>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="customer_right">--}}
-{{--                                            <h3 class="customer_name">Ордабаева Самал Токтасыновна<span class="quick_icon"><img src="images/quick-icon.png"></span></h3>--}}
-{{--                                            <p class="enim_text">Председатель НУ МАС «Pactum»</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-{{--            <!-- Second Slide -->--}}
-{{--            <div class="carousel-item">--}}
-{{--                <div class="customer_section_2">--}}
-{{--                    <div class="container">--}}
-{{--                        <div class="row">--}}
-{{--                            <div class="col-md-12">--}}
-{{--                                <div class="box_main">--}}
-{{--                                    <div class="customer_main">--}}
-{{--                                        <div class="customer_left">--}}
-{{--                                            <div class="customer_img">--}}
-{{--                                                <img class="image_hero" src="images/heroes/zhanar.png" alt=""/>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="customer_right">--}}
-{{--                                            <h3 class="customer_name">Садыкова Жанар Еркинбековна<span class="quick_icon"><img src="images/quick-icon.png"></span></h3>--}}
-{{--                                            <p class="enim_text">Постоянно действующий арбитр в НУ МАС «Pactum»</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-{{--            <!-- Third Slide -->--}}
-{{--            <div class="carousel-item">--}}
-{{--                <div class="customer_section_2">--}}
-{{--                    <div class="container">--}}
-{{--                        <div class="row">--}}
-{{--                            <div class="col-md-12">--}}
-{{--                                <div class="box_main">--}}
-{{--                                    <div class="customer_main">--}}
-{{--                                        <div class="customer_left">--}}
-{{--                                            <div class="customer_img">--}}
-{{--                                                <img class="image_hero" src="images/heroes/tatyana.jpg" alt=""/>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="customer_right">--}}
-{{--                                            <h3 class="customer_name">Бровко Татьяна Владимировна<span class="quick_icon"><img src="images/quick-icon.png"></span></h3>--}}
-{{--                                            <p class="enim_text">Главный менеджер в АО «Народный Банк Казахстана»</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-{{--            <div class="carousel-item">--}}
-{{--                <div class="customer_section_2">--}}
-{{--                    <div class="container">--}}
-{{--                        <div class="row">--}}
-{{--                            <div class="col-md-12">--}}
-{{--                                <div class="box_main">--}}
-{{--                                    <div class="customer_main">--}}
-{{--                                        <div class="customer_left">--}}
-{{--                                            <div class="customer_img">--}}
-{{--                                                <img class="image_hero" src="images/heroes/sergei.jpeg" alt=""/>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="customer_right">--}}
-{{--                                            <h3 class="customer_name">Степасюк Сергей Николаевич<span class="quick_icon"><img src="images/quick-icon.png"></span></h3>--}}
-{{--                                            <p class="enim_text">Директор ТОО Юридическая фирма BRAUS</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-{{--            <div class="carousel-item">--}}
-{{--                <div class="customer_section_2">--}}
-{{--                    <div class="container">--}}
-{{--                        <div class="row">--}}
-{{--                            <div class="col-md-12">--}}
-{{--                                <div class="box_main">--}}
-{{--                                    <div class="customer_main">--}}
-{{--                                        <div class="customer_left">--}}
-{{--                                            <div class="customer_img">--}}
-{{--                                                <img class="image_hero" src="images/heroes/serik.png" alt=""/>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="customer_right">--}}
-{{--                                            <h3 class="customer_name">Сюндиков Серик Токтарбекович<span class="quick_icon"><img src="images/quick-icon.png"></span></h3>--}}
-{{--                                            <p class="enim_text">Профессиональный медиатор международного уровня</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-{{--            <div class="carousel-item">--}}
-{{--                <div class="customer_section_2">--}}
-{{--                    <div class="container">--}}
-{{--                        <div class="row">--}}
-{{--                            <div class="col-md-12">--}}
-{{--                                <div class="box_main">--}}
-{{--                                    <div class="customer_main">--}}
-{{--                                        <div class="customer_left">--}}
-{{--                                            <div class="customer_img">--}}
-{{--                                                <img class="image_hero" src="images/heroes/konstantin.jpg" alt=""/>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="customer_right">--}}
-{{--                                            <h3 class="customer_name">Константин Игоревич Иванов<span class="quick_icon"><img src="images/quick-icon.png"></span></h3>--}}
-{{--                                            <p class="enim_text">Эксперт-практик в области коммерческого, договорного и арбитражного права</p>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-{{--        </div>--}}
-
-{{--        <!-- Previous button -->--}}
-{{--        <a class="carousel-control-prev" href="#my_slider" role="button" data-bs-slide="prev">--}}
-{{--            <span class="carousel-control-prev-icon" aria-hidden="true"></span>--}}
-{{--            <span class="visually-hidden">Previous</span>--}}
-{{--        </a>--}}
-
-{{--        <!-- Next button -->--}}
-{{--        <a class="carousel-control-next" href="#my_slider" role="button" data-bs-slide="next">--}}
-{{--            <span class="carousel-control-next-icon" aria-hidden="true"></span>--}}
-{{--            <span class="visually-hidden">Next</span>--}}
-{{--        </a>--}}
-{{--    </div>--}}
-
-
-{{--</div>--}}
-<!-- testimonial section end -->
 <!-- contact section start -->
 <div id="contacts" style="background-color: #f8f2e2; padding: 30px" class="contact_section layout_padding">
     <div class="container-fluid d-flex align-items-center">
@@ -692,7 +433,7 @@
             </div>
             <div class="footer_logo">
                 <a href="#">
-                    <img src="images/logo.png"/>
+                    <img src="images/logo_economy.png"/>
                 </a>
             </div>
         </div>
