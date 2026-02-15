@@ -242,7 +242,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row justify-content-center">
-                        <iframe src="{{ asset('files/regulations_pactum.pdf') }}" width="50%" height="600">
+                        <iframe src="{{ asset('files/regulations_pactum_2.pdf') }}" width="50%" height="600">
                             This browser does not support PDFs. Please download the PDF to view it: <a href="{{ asset('files/regulations_pactum.pdf') }}">Download PDF</a>
                         </iframe>
                     </div>
@@ -307,19 +307,19 @@
                             <div class="services_row flex-container">
                                 <div class="service_box flex-item">
                                     <div class="house_icon">
-                                        <img src="images/heroes/samal.png" class="image_hero" alt="Ордабаева Самал Токтасыновна">
+                                        <img src="images/heroes/pactum_Айдын.jpeg" class="image_hero" alt="Ордабаева Самал Токтасыновна">
                                     </div>
                                     <h3 class="about_text">
-                                        <b>Ордабаева Самал Токтасыновна</b>
+                                        <b>Мунайтбасов Айдын Батырбекович</b>
                                         <p class="banner_text">Председатель НУ МАС "Pactum"</p>
                                     </h3>
                                 </div>
                                 <div class="service_box flex-item">
                                     <div class="house_icon">
-                                        <img src="images/heroes/zhanar.png" class="image_hero" alt="Садыкова Жанар Еркинбековна">
+                                        <img src="images/heroes/pactum_Зейнебике.jpeg" class="image_hero" alt="Садыкова Жанар Еркинбековна">
                                     </div>
                                     <h3 class="about_text">
-                                        <b>Садыкова Жанар Еркинбековна</b>
+                                        <b>Мадыбаева Зейнебике Орынбасаровна</b>
                                         <p class="banner_text">Постоянно действующий арбитр в Некоммерческом учреждении «Международный Арбитражный Суд «Pactum»</p>
                                     </h3>
                                 </div>
